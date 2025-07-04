@@ -1,0 +1,164 @@
+
+
+.banner-melatonic {
+  margin-bottom: 10rem;
+}
+
+.banner-melatonic__wrapper {
+  position: relative;
+  width: calc(100% + 3rem);
+  margin-left: -1.5rem;
+}
+
+.banner-melatonic__image {
+  height: 40rem;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.banner-melatonic__image-desktop {
+  display: none;
+}
+
+
+
+.banner-melatonic__content {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 100%;
+  max-width: 20rem;
+  z-index: 2;
+}
+
+.banner-with-title__link {
+  margin-top: 1rem;
+  display: flex;
+  background-color: #000;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  min-height: 3.2rem;
+  max-width: 15rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  text-decoration: initial;
+  transition: background-color .3s linear;
+}
+
+@media screen and (min-width: 575px) {
+  .banner-melatonic__wrapper {
+    width: initial;
+    margin-left: initial;
+  }
+
+  .banner-melatonic__image-mobile {
+    border-radius: 1rem;
+  }
+
+  .banner-melatonic__wrapper {
+    border-radius: 1rem;
+    border: 0.1rem solid #dfdfdf;
+  }
+
+}
+
+@media screen and (min-width: 767px) {
+
+
+
+  .banner-melatonic__image-desktop {
+    display: flex;
+    border-radius: 1rem;
+  }
+
+  .banner-melatonic__image-mobile {
+   display: none;
+  }
+
+  .banner-melatonic__content {
+    top: 3rem;
+    left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner-melatonic__content {
+    max-width: 30rem;
+    top: 5rem;
+    left: 7rem;
+  }
+
+
+  .banner-melatonic__image {
+    height: 45rem;
+  }
+
+  .banner-melatonic__slide {
+    p {
+      font-size: 1.8rem;
+    }
+  }
+
+  .banner-melatonic__pagination {
+    margin-top: 2rem;
+  }
+
+  .banner-with-title__link {
+    min-height: 5rem;
+    max-width: 25rem;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  .banner-melatonic__slide {
+    p {
+      font-size: 2.4rem;
+    
+      span {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  .banner-melatonic__content {
+    max-width: 50rem;
+    left: 5rem;
+    top: 15rem;
+  }
+
+  .banner-with-title__link {
+    margin-top: 3rem;
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    min-height: 5.5rem;
+    max-width: 27rem;
+    border-radius: 1rem;
+    font-size: 2.4rem;
+    text-decoration: initial;
+    transition: background-color .3s linear;
+  }
+
+  .banner-melatonic__pagination {
+    margin-top: 2rem;
+   
+    span {
+     width: 1.2rem;
+     height: 1.2rem;
+    }
+   }
+
+   .banner-melatonic__image {
+    height: 60rem;
+  }
+}

@@ -1,0 +1,37 @@
+{{ 'banner-melatonic.css' | asset_url | stylesheet_tag }}
+
+<section class="banner-melatonic page-width">
+  <div class="banner-melatonic__wrapper">
+    <div class="banner-melatonic__image">
+      <img
+        class="banner-melatonic__image-desktop"
+        src="{{ 'banner-melatonic-person.jpg' | asset_url }}"
+        width="1420"
+        height="720"
+      >
+      <img
+        class="banner-melatonic__image-mobile"
+        src="{{ 'banner-melatonic-person-mobile.jpg' | asset_url }}"
+        width="550"
+        height="480"
+      >
+    </div>
+
+    <div class="banner-melatonic__content">
+      {% render 'brend-review-slider' %}
+      <a class="banner-with-title__link melatonic-btn-hover" href="{{ all_products.melatonic.url }}"> Shop now</a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Banner Melatonic",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Banner Melatonic"
+    }
+  ]
+}
+{% endschema %}

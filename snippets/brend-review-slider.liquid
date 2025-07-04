@@ -1,0 +1,39 @@
+{% assign unique_id = section.id | default: 'global' %}
+
+<div class="swiper brend-review-slider__swiper-{{ unique_id }}">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="brend-review-slider__slide">
+        <p>“Discover the healthiest way to naturally enhance your hair’s growth and strength” - <span>VOGUE</span></p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="brend-review-slider__slide">
+        <p>“Discover the healthiest way to naturally enhance your hair’s growth and strength” - <span>VOGUE</span></p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="brend-review-slider__slide">
+        <p>“Melatonic is basically filler in a bottle giving skin that smooth, youthful bounce.” <span>VOGUE</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="brend-review-slider__pagination brend-review-slider__pagination-{{ unique_id }}"></div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const swiper = new Swiper('.brend-review-slider__swiper-{{ unique_id }}', {
+      spaceBetween: 10,
+      slidesPerView: 1,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.brend-review-slider__pagination-{{ unique_id }}',
+        clickable: true,
+      },
+    });
+  });
+</script>

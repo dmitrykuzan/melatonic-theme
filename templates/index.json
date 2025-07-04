@@ -1,0 +1,132 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_GmkTFD": {
+      "type": "hero",
+      "blocks": {
+        "product_yAjcV6": {
+          "type": "product",
+          "settings": {
+            "product": "melatonic"
+          }
+        }
+      },
+      "block_order": [
+        "product_yAjcV6"
+      ],
+      "name": "Hero",
+      "settings": {}
+    },
+    "partners_WArexW": {
+      "type": "partners",
+      "name": "Ticker Partners",
+      "settings": {}
+    },
+    "melatonic_promo_GpgJfw": {
+      "type": "melatonic-promo",
+      "name": "Melatonic Promo",
+      "settings": {}
+    },
+    "before_after_slider_TQD9nr": {
+      "type": "before-after-slider",
+      "name": "Before After Slider",
+      "settings": {}
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "video_slider_J36J48": {
+      "type": "video-slider",
+      "blocks": {
+        "video_slide_TgWX93": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/4a7fcba6103a402382dbd525d7bb00a6.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0616/1435/8662/files/poster1.jpg?v=1747072280"
+          }
+        },
+        "video_slide_6YxQiD": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/937a4ff658c443e19e43a00aa8798dcb.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0616/1435/8662/files/poster3.jpg?v=1747072286"
+          }
+        },
+        "video_slide_7e4qiH": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/15b86e9a24b14e20aefdfbc421e2a7e9.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0616/1435/8662/files/poster2.jpg?v=1747072283"
+          }
+        }
+      },
+      "block_order": [
+        "video_slide_TgWX93",
+        "video_slide_6YxQiD",
+        "video_slide_7e4qiH"
+      ],
+      "name": "Video Review Slider",
+      "settings": {}
+    },
+    "ticker_text_hBRgde": {
+      "type": "ticker-text",
+      "name": "Ticker Text",
+      "settings": {}
+    },
+    "banner_melatonic_DVir6m": {
+      "type": "banner-melatonic",
+      "name": "Banner Melatonic",
+      "settings": {}
+    },
+    "review_slider_qamVqX": {
+      "type": "review-slider",
+      "name": "Review Slider",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero_GmkTFD",
+    "partners_WArexW",
+    "melatonic_promo_GpgJfw",
+    "before_after_slider_TQD9nr",
+    "featured_collection",
+    "video_slider_J36J48",
+    "review_slider_qamVqX",
+    "ticker_text_hBRgde",
+    "banner_melatonic_DVir6m"
+  ]
+}
