@@ -14,11 +14,18 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_UcGB9P": {
+          "type": "text",
+          "settings": {
+            "heading": "SUPPORT",
+            "subtext": "<p>We’re here M-F 9am - 5pm PST.<br/><br/>Drop us a note anytime.<br/><br/>Do Not Sell or Share My PersonalInformation<br/><br/>Cookie Preferences<br/><br/>© melo-tonic 2025</p>"
+          }
+        },
         "link_list_JQUU7P": {
           "type": "link_list",
           "settings": {
             "heading": "NAVIGATE",
-            "menu": "secondary-menu"
+            "menu": "footer"
           }
         },
         "link_list_EhKPJN": {
@@ -30,6 +37,7 @@
         }
       },
       "block_order": [
+        "text_UcGB9P",
         "link_list_JQUU7P",
         "link_list_EhKPJN"
       ],
