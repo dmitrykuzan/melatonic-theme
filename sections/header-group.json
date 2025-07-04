@@ -13,6 +13,18 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "blocks": {
+        "announcement_NArRnV": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING WORLDWIDE",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_NArRnV"
+      ],
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -26,6 +38,7 @@
     "header": {
       "type": "header",
       "settings": {
+        "link": "",
         "logo_position": "middle-left",
         "mobile_logo_position": "left",
         "menu": "main-menu",
