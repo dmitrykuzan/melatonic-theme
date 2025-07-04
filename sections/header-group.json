@@ -14,16 +14,24 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_NArRnV": {
+        "announcement_dLytM9": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": "shopify://products/melatonic-60ml"
+          }
+        },
+        "announcement_w7Y7kb": {
           "type": "announcement",
           "settings": {
             "text": "FREE SHIPPING WORLDWIDE",
-            "link": ""
+            "link": "shopify://products/melatonic-60ml"
           }
         }
       },
       "block_order": [
-        "announcement_NArRnV"
+        "announcement_dLytM9",
+        "announcement_w7Y7kb"
       ],
       "settings": {
         "auto_rotate": false,
