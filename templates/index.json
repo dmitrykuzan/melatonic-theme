@@ -27,16 +27,19 @@
     },
     "partners_WArexW": {
       "type": "partners",
+      "disabled": true,
       "name": "Ticker Partners",
       "settings": {}
     },
     "melatonic_promo_GpgJfw": {
       "type": "melatonic-promo",
+      "disabled": true,
       "name": "Melatonic Promo",
       "settings": {}
     },
     "before_after_slider_TQD9nr": {
       "type": "before-after-slider",
+      "disabled": true,
       "name": "Before After Slider",
       "settings": {}
     },
@@ -99,22 +102,26 @@
         "video_slide_6YxQiD",
         "video_slide_7e4qiH"
       ],
+      "disabled": true,
       "name": "Video Review Slider",
+      "settings": {}
+    },
+    "review_slider_qamVqX": {
+      "type": "review-slider",
+      "disabled": true,
+      "name": "Review Slider",
       "settings": {}
     },
     "ticker_text_hBRgde": {
       "type": "ticker-text",
+      "disabled": true,
       "name": "Ticker Text",
       "settings": {}
     },
     "banner_melatonic_DVir6m": {
       "type": "banner-melatonic",
+      "disabled": true,
       "name": "Banner Melatonic",
-      "settings": {}
-    },
-    "review_slider_qamVqX": {
-      "type": "review-slider",
-      "name": "Review Slider",
       "settings": {}
     }
   },
