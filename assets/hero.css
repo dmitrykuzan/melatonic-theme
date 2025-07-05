@@ -129,7 +129,7 @@
   .hero__wrapper {
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 13rem;
+    padding-top: 16rem;
     border-radius: 3rem;
   }
 
@@ -171,23 +171,25 @@
 @media screen and (min-width: 1280px) {
   .hero__wrapper {
     min-height: 80rem;
+    padding-top: 20rem;
+  }
+
+  .hero__title {
+    font-size: 7rem;
   }
 }
 
 @media screen and (min-width: 1380px) {
-
   .hero__wrapper {
     padding-bottom: 3rem;
     padding-left: 5rem;
+    padding-top: 25rem;
     padding-right: 5rem;
+    min-height: 90rem;
   }
 
   .hero__text {
     max-width: 85rem;
-  }
-
-  .hero__title {
-    font-size: 8rem;
   }
 
   .hero__subtitle {
@@ -203,8 +205,3 @@
   }
 }
 
-@media screen and (min-width: 1580px) {
-  .hero__wrapper {
-   min-height: 90rem;
-  }
-}
