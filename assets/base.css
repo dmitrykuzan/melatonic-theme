@@ -401,8 +401,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 }
 
 .utility-bar__grid.page-width {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 
@@ -439,8 +439,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
   .header.page-width,
   .utility-bar__grid.page-width {
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .page-width--narrow {
@@ -2513,12 +2513,12 @@ input[type='checkbox'] {
 }
 
 .announcement-bar .slider-button--next {
-  margin-right: -1.5rem;
+  /* margin-right: -1.5rem; */
   min-width: 44px;
 }
 
 .announcement-bar .slider-button--prev {
-  margin-left: -1.5rem;
+  /* margin-left: -1.5rem; */
   min-width: 44px;
 }
 
@@ -2574,7 +2574,8 @@ input[type='checkbox'] {
 }
 
 .announcement-bar__link .icon-arrow {
-  display: inline-block;
+  display: none;
+  /* display: inline-block; */
   pointer-events: none;
   margin-left: 0.8rem;
   vertical-align: middle;
@@ -2665,7 +2666,7 @@ input[type='checkbox'] {
 }
 
 .section-header.animate {
-  transition: top 0.15s ease-out;
+  transition: top 0.5s ease-out;
 }
 
 .shopify-section-group-header-group {
@@ -2680,7 +2681,8 @@ input[type='checkbox'] {
 .header-wrapper {
   display: block;
   position: relative;
-  background-color: rgb(var(--color-background));
+  /* background-color: rgb(var(--color-background)); */
+   background-color: initial;
 
   .secondary-menu {
     display: none;
@@ -2715,18 +2717,100 @@ input[type='checkbox'] {
   }
 }
 
+
+
 .header-custom__wrapper {
   display: grid;
   grid-template-areas: 'navigation heading icons';
   grid-template-columns: 1fr auto 1fr;
   column-gap: 2rem;
   align-items: center;
-  background-color: #F1F0ED;
   border-radius: 2rem 2rem 0 0;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  transition: background-color 0.5s linear;
+}
+
+@media screen and (min-width: 1023px) {
+  .header-custom__wrapper {
+    border-radius: 3rem 3rem 0 0;
+  }
+}
+
+.header.is-not-main {
+
+  .header-custom__wrapper {
+    background-color: #F1F0ED;
+  }
+
+  .list-menu--inline li a {
+    color: #66645E;
+  }
+
+   .secondary-menu ul li a {
+    color: #66645E;
+    transition: color 0.5s linear;
+  }
+
+  .header__buy-now-link {
+    border: 0.1rem solid #66645E;
+    color: #66645E;
+  }
+
+  .header__icon--cart {
+    .svg-wrapper {
+      svg {
+        transition: stroke 0.5s linear;
+        stroke: #66645E;
+      }
+    }
+  }
+}
+
+.header.scroll-down {
+  background-color: #fff;
+
+  .list-menu--inline li a {
+    color: #66645E;
+    transition: color 0.5s linear;
+
+    .header__active-menu-item {
+      transition: color 0.5s linear;
+      color: #000;
+    }
+  }
+
+  .secondary-menu ul li a {
+    color: #66645E;
+    transition: color 0.5s linear;
+  }
+
+  .header-custom__wrapper {
+    background-color: #F1F0ED;
+  }
+
+   .header__buy-now-link {
+    border: 0.1rem solid #66645E;
+    color: #66645E;
+  }
+
+  .header__icon--cart {
+    .svg-wrapper {
+      svg {
+        transition: stroke 0.5s linear;
+        stroke: #66645E;
+      }
+    }
+  }
+  
+  .header__icon--menu {
+    span svg {
+      transition: stroke 0.5s linear;
+      stroke: #66645E;
+    }
+  }
 }
 
 .header-custom__navigation {
@@ -2779,8 +2863,46 @@ input[type='checkbox'] {
   grid-template-areas: 'left-icons heading icons';
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center; */
-  
+  transition: background-color 0.3s linear;
+
+  .list-menu--inline li a {
+    color: #fff;
+    transition: color 0.3s linear;
+
+    .header__active-menu-item {
+      transition: color 0.5s linear;
+      color: #ffffff;
+    }
+  }
+
+  .secondary-menu ul li a {
+    color: #fff;
+    transition: color 0.3s linear;
+  }
+
+  .header__buy-now-link {
+    border: 0.1rem solid #fff;
+    color: #fff;
+  }
+
+  .header__icon--cart {
+    .svg-wrapper {
+      svg {
+        transition: stroke 0.3s linear;
+        stroke: #fff;
+      }
+    }
+  }
+
+   .header__icon--menu {
+    span svg {
+      transition: stroke 0.5s linear;
+      stroke: #fff;
+    }
+  }
 }
+
+
 
 @media screen and (max-width: 749px) {
   .header--has-app {
