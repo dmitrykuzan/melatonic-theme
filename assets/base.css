@@ -78,13 +78,6 @@ html {
   --shadow-visible: var(--media-shadow-visible);
 }
 
-.melatonic-btn-hover:hover {
-  background-color: #360602;
-}
-
-.melatonic-btn-hover:active {
-  background-color: #c5c5c5;
-}
 
 /* custom fonts */
 @font-face {
@@ -136,247 +129,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-/* ticker text */
-.ticker-text__wrapper {
-  margin-top: 5rem;
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  margin-bottom: 5rem;
-}
-
-@media screen and (min-width: 1023px) {
-  .ticker-text__wrapper {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .ticker-text__wrapper {
-    margin-top: 12rem;
-    margin-bottom: 12rem;
-  }
-}
-
-.ticker-text__list {
-  display: inline-block;
-  animation: marquee 50s linear infinite;
-}
-
-.ticker-text__item {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  display: inline-block;
-  font-size: 7.2rem;
-  line-height: 125%;
-  font-weight: 800;
-  background: linear-gradient(90.00deg, rgb(0, 0, 0),rgb(155, 155, 155),rgb(0, 0, 0));
--webkit-background-clip:
-text;
--webkit-text-fill-color:
-transparent;
-background-clip:
-text;
-text-fill-color:
-transparent;
-}
-
-.ticker-text__item-1 {
-  position: relative;
-  left: 0%;
-  animation: swap 50s linear infinite;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0)
-  }
-  100% {
-    transform: translateX(-100%)
-  }
-}
-
-@keyframes swap {
-  0%, 50% {
-    left: 0%;
-  }
-  50.01%,
-  100% {
-    left: 100%;
-  }
-}
-
-
-/* partners */
-.partners__logos-row {
-  display: flex;
-  gap: 5rem;
-  flex-shrink: 0;
-  padding-left: 5rem;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee-horizontal-left 24000ms linear infinite;
-}
-
-@keyframes marquee-horizontal-left {
-  0% {
-    transform: translateZ(0);
-    visibility: visible;
-  }
-  
-  100% {
-    transform: translate3d(-100%, 0, 0);
-  }
-}
-
-.partners__logos-ticker {
-  display: inline-flex;
-  overflow: hidden;
-  width: 100%;
-  align-items: center;
-}
-
-.partners__logos {
- margin-top: 8rem;
-}
-
-.partners__logo {
-  max-width: 12rem;
-  width: 100%;
-
-  svg {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.partners__image {
-  display: none;
-  width: 210rem;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  height: 100%;
-}
-
-.partners__image-mobile {
-  width: 94rem;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 3rem;
-  transform: translate(-50%, -50%);
-
-}
-
-@media screen and (min-width: 767px) {
-  .partners__image {
-   display: block;
-  }
-
-  .partners__image-mobile {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .partners__logos {
-    margin-top: 4rem;
-   }
-}
- 
-
-@media screen and (min-width: 1400px) {
-  .partners__logos {
-    margin-top: initial;
-   }
-
-  .partners__logos-row  {
-    gap: 10rem;
-    padding-left: 10rem;
-  }
-}
-
-/* brend review slider */
-
-.brend-review-slider__slide {
-  p {
-    margin: initial;
-    font-size: 1.4rem;
-    line-height: 144%;
-    color: #000;
-    font-weight: 500;
-    font-style: italic;
-
-    span {
-      font-style: normal;
-      color: #555555;
-      opacity: 0.4;
-      font-size: 1.4rem;
-      font-weight: 300;
-      text-transform: uppercase;
-    }
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .brend-review-slider__slide {
-    p {
-      font-size: 1.8rem;
-    }
-  }
-}
-
-@media screen and (min-width: 1480px) {
-  .brend-review-slider__slide {
-    p {
-      font-size: 2.4rem;
-    
-      span {
-        font-size: 1.8rem;
-      }
-    }
-  }
-}
-
-.brend-review-slider__pagination {
- display: flex;
- justify-content: center;
- align-items: center;
- margin-top: 1rem;
-
- span {
-  background-color: #000;
-  width: 0.8rem;
-  height: 0.8rem;
-  transform: scale(0.85);
-  transition: transform 0.3s linear;
- }
-
- .swiper-pagination-bullet-active {
-  transform: scale(1);
- }
-}
-
-@media screen and (min-width: 1024px) {
-  .brend-review-slider__pagination {
-    margin-top: 2rem;
-  }
-}
-
-@media screen and (min-width: 1480px)  {
-  .brend-review-slider__pagination {
-    margin-top: 2rem;
-   
-    span {
-     width: 1.2rem;
-     height: 1.2rem;
-    }
-  }
 }
 
 /* base */
@@ -2491,7 +2243,7 @@ input[type='checkbox'] {
   grid-area: announcements;
   background-color: #F1F0ED;
   border-radius: 1.8rem;
-  min-height: 6rem;
+  min-height: 5rem;
 }
 
 .announcement-bar .slider--everywhere {
@@ -2588,6 +2340,8 @@ input[type='checkbox'] {
   margin: 0;
   letter-spacing: 0.1rem;
   min-height: 3.8rem;
+  font-weight: 600;
+  color: #66645E;
 }
 
 .announcement-bar-slider--fade-in-next .announcement-bar__message,
