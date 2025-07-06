@@ -133,6 +133,11 @@
       "disabled": true,
       "name": "Ticker Text",
       "settings": {}
+    },
+    "banner_melatonic_image_aqYLmV": {
+      "type": "banner-melatonic-image",
+      "name": "Banner only image",
+      "settings": {}
     }
   },
   "order": [
@@ -144,6 +149,7 @@
     "featured_collection",
     "video_slider_J36J48",
     "review_slider_qamVqX",
-    "ticker_text_hBRgde"
+    "ticker_text_hBRgde",
+    "banner_melatonic_image_aqYLmV"
   ]
 }
