@@ -15,7 +15,7 @@
         "product_yAjcV6": {
           "type": "product",
           "settings": {
-            "product": "melatonic"
+            "product": "melatonic-60ml"
           }
         }
       },
@@ -23,6 +23,22 @@
         "product_yAjcV6"
       ],
       "name": "Hero",
+      "settings": {}
+    },
+    "banner_melatonic_DVir6m": {
+      "type": "banner-melatonic",
+      "blocks": {
+        "product_hicLhd": {
+          "type": "product",
+          "settings": {
+            "product": "melatonic-60ml"
+          }
+        }
+      },
+      "block_order": [
+        "product_hicLhd"
+      ],
+      "name": "Banner Melatonic",
       "settings": {}
     },
     "partners_WArexW": {
@@ -116,11 +132,6 @@
       "type": "ticker-text",
       "disabled": true,
       "name": "Ticker Text",
-      "settings": {}
-    },
-    "banner_melatonic_DVir6m": {
-      "type": "banner-melatonic",
-      "name": "Banner Melatonic",
       "settings": {}
     }
   },
