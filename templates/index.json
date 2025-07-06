@@ -120,20 +120,19 @@
     },
     "banner_melatonic_DVir6m": {
       "type": "banner-melatonic",
-      "disabled": true,
       "name": "Banner Melatonic",
       "settings": {}
     }
   },
   "order": [
     "hero_GmkTFD",
+    "banner_melatonic_DVir6m",
     "partners_WArexW",
     "melatonic_promo_GpgJfw",
     "before_after_slider_TQD9nr",
     "featured_collection",
     "video_slider_J36J48",
     "review_slider_qamVqX",
-    "ticker_text_hBRgde",
-    "banner_melatonic_DVir6m"
+    "ticker_text_hBRgde"
   ]
 }
