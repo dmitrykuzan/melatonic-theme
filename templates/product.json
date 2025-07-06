@@ -69,6 +69,7 @@
     },
     "melatonic_benefits_eyid3w": {
       "type": "melatonic-benefits",
+      "disabled": true,
       "name": "Melatonic Benefits",
       "settings": {}
     },
@@ -93,16 +94,19 @@
     },
     "result_slider_zGryGY": {
       "type": "result-slider",
+      "disabled": true,
       "name": "Result Slider",
       "settings": {}
     },
     "product_benefits_Q9CkwU": {
       "type": "product-benefits",
+      "disabled": true,
       "name": "Product benefits",
       "settings": {}
     },
     "melatonic_benefits_list_Kz6fQK": {
       "type": "melatonic-benefits-list",
+      "disabled": true,
       "name": "Melatonic benefits list",
       "settings": {}
     },
@@ -202,6 +206,7 @@
         "collapsible_row_CKfhD9",
         "collapsible_row_RVG33R"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
@@ -220,6 +225,7 @@
     },
     "melatonic_review_rating_pN4BXB": {
       "type": "melatonic-review-rating",
+      "disabled": true,
       "name": "Melatonic Rating",
       "settings": {}
     },
@@ -306,6 +312,7 @@
         "list_item_H7JdMP",
         "list_item_wji74x"
       ],
+      "disabled": true,
       "name": "Custom Review List",
       "settings": {}
     }
