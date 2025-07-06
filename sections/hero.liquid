@@ -15,7 +15,7 @@
         {% for block in section.blocks %}
           {% if block.type == 'product' and block.settings.product %}
             {% assign product = block.settings.product %}
-            <a class="hero__product-link melatonic-btn-hover" href="{{ product.url }}">Boost hair growth</a>
+            <a class="hero__product-link" href="{{ product.url }}">Boost hair growth</a>
           {% endif %}
         {% endfor %}
       </div>
@@ -54,7 +54,7 @@
       </div>
 
       <div class="hero__logos">
-        <div class="hero__logos-row partners__logos-row">
+        <div class="hero__logos-row">
           <div class="hero__logo">
             <svg
               fill="none"
@@ -189,7 +189,7 @@
           </div>
         </div>
 
-        <div class="hero__logos-row partners__logos-row">
+        <div class="hero__logos-row">
           <div class="hero__logo">
             <svg
               fill="none"
@@ -324,7 +324,7 @@
           </div>
         </div>
 
-        <div class="hero__logos-row partners__logos-row">
+        <div class="hero__logos-row">
           <div class="hero__logo">
             <svg
               fill="none"

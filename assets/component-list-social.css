@@ -36,6 +36,13 @@
   text-decoration: none;
 }
 
+.list-social__link:hover {
+  .social-name {
+    text-decoration: underline;
+    color: #000;
+  }
+}
+
 .social-name {
   font-weight: 500;
   font-size: 1.4rem;

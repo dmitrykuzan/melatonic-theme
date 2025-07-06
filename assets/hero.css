@@ -45,9 +45,9 @@
 .hero__logos-row {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 5rem;
   flex-shrink: 0;
-  padding-right: 3rem;
+  padding-right: 5rem;
   white-space: nowrap;
   will-change: transform;
   animation: marquee-horizontal-left 24000ms linear infinite;
@@ -166,12 +166,13 @@
   }
 
   .hero__subtitle {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .hero__product-link {
     min-height: 5rem;
     max-width: 25rem;
+    font-size: 1.8rem;
   }
 
   .hero__logos {
