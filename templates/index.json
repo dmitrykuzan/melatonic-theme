@@ -108,13 +108,6 @@
             "product": "melatonic-60ml"
           }
         },
-        "video_slide_TgWX93": {
-          "type": "video_slide",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/4a7fcba6103a402382dbd525d7bb00a6.mp4",
-            "poster_url": "https://cdn.shopify.com/s/files/1/0616/1435/8662/files/poster1.jpg?v=1747072280"
-          }
-        },
         "video_slide_6YxQiD": {
           "type": "video_slide",
           "settings": {
@@ -146,7 +139,6 @@
       },
       "block_order": [
         "product_Nw4EcY",
-        "video_slide_TgWX93",
         "video_slide_6YxQiD",
         "video_slide_apnAE9",
         "video_slide_7e4qiH",
