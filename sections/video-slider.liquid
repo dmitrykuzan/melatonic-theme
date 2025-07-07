@@ -1,6 +1,6 @@
 {{ 'video-slider.css' | asset_url | stylesheet_tag }}
 
-<section class="before-after-slider page-width" id="VideoSlider{{ section.id }}">
+<section class="before-after-slider page-width section-melatonin" id="VideoSlider{{ section.id }}">
   <div class="before-after-slider__content-wrapper">
     <div class="before-after-slider__titles">
       <h2>rooted in results.</h2>
@@ -37,28 +37,29 @@
       </div>
     </div>
 
-    <div class="before-after-slider__wrapper">
-      <div class="swiper video-slider__swiper">
+    <div class="video-slider__wrapper">
+      <div class="swiper before-after-slider__wrapper video-slider__swiper">
         <div class="swiper-wrapper">
           {% for block in section.blocks %}
-            <div class="swiper-slide">
-              <div class="before-after-slider__slide">
-                <video
-                  class="video-slider__video"
-                  playsinline
-                  preload="auto"
-                  poster="{{ block.settings.poster_url }}"
-                >
-                  <source src="{{ block.settings.video_url }}" type="video/mp4">
-                </video>
-                <button class="video-slider__slide-button" aria-label="Play video">
-                  <img src="{{ 'play-button.png' | asset_url }}" width="80" height="80" alt="Play Button">
-                </button>
+            {% if block.type == 'video_slide' %}
+              <div class="swiper-slide">
+                <div class="video-slider__slide">
+                  <video
+                    class="video-slider__video"
+                    playsinline
+                    preload="auto"
+                    poster="{{ block.settings.poster_url }}"
+                  >
+                    <source src="{{ block.settings.video_url }}" type="video/mp4">
+                  </video>
+                  <button class="video-slider__slide-button" aria-label="Play video">
+                    <img src="{{ 'play-button.png' | asset_url }}" width="80" height="80" alt="Play Button">
+                  </button>
+                </div>
               </div>
-            </div>
+            {% endif %}
           {% endfor %}
         </div>
-
         <div class="before-after-slider__navigation video-slider__navigation">
           <div class="before-after-slider__pagination video-slider__pagination"></div>
 
@@ -87,16 +88,14 @@
             </button>
           </div>
         </div>
-
-        <div class="before-after-slider__link-wrapper">
-          {% for block in section.blocks %}
-            {% if block.type == 'product' and block.settings.product %}
-              {% assign product = block.settings.product %}
-              <a class="before-after-slider__link button-dark" href="{{ product.url }}">Try MELATONIC Now</a>
-            {% endif %}
-          {% endfor %}
-        </div>
       </div>
+      {% for block in section.blocks %}
+        {% if block.type == 'product' and block.settings.product %}
+          <a class="before-after-slider__link button-dark" href="{{ block.settings.product.url }}">
+            Try MELATONIC Now
+          </a>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -187,12 +186,12 @@
     },
     {
       "type": "product",
-      "name": "Product link",
+      "name": "CTA Product Link",
       "settings": [
         {
           "type": "product",
           "id": "product",
-          "label": "Select a product"
+          "label": "Select a product for CTA"
         }
       ]
     }
@@ -206,6 +205,9 @@
         },
         {
           "type": "video_slide"
+        },
+        {
+          "type": "product"
         }
       ]
     }
