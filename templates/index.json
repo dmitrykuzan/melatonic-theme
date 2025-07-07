@@ -55,6 +55,17 @@
     },
     "before_after_slider_TQD9nr": {
       "type": "before-after-slider",
+      "blocks": {
+        "product_pbmgrj": {
+          "type": "product",
+          "settings": {
+            "product": "melatonic-60ml"
+          }
+        }
+      },
+      "block_order": [
+        "product_pbmgrj"
+      ],
       "name": "Before After Slider",
       "settings": {}
     },
