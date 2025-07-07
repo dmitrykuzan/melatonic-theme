@@ -91,6 +91,12 @@
     "video_slider_J36J48": {
       "type": "video-slider",
       "blocks": {
+        "product_Nw4EcY": {
+          "type": "product",
+          "settings": {
+            "product": "melatonic-60ml"
+          }
+        },
         "video_slide_TgWX93": {
           "type": "video_slide",
           "settings": {
@@ -105,7 +111,21 @@
             "poster_url": "https://cdn.shopify.com/s/files/1/0616/1435/8662/files/poster3.jpg?v=1747072286"
           }
         },
+        "video_slide_apnAE9": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/937a4ff658c443e19e43a00aa8798dcb.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0616/1435/8662/files/poster3.jpg?v=1747072286"
+          }
+        },
         "video_slide_7e4qiH": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/15b86e9a24b14e20aefdfbc421e2a7e9.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0616/1435/8662/files/poster2.jpg?v=1747072283"
+          }
+        },
+        "video_slide_HtMH6Y": {
           "type": "video_slide",
           "settings": {
             "video_url": "https://cdn.shopify.com/videos/c/o/v/15b86e9a24b14e20aefdfbc421e2a7e9.mp4",
@@ -114,11 +134,13 @@
         }
       },
       "block_order": [
+        "product_Nw4EcY",
         "video_slide_TgWX93",
         "video_slide_6YxQiD",
-        "video_slide_7e4qiH"
+        "video_slide_apnAE9",
+        "video_slide_7e4qiH",
+        "video_slide_HtMH6Y"
       ],
-      "disabled": true,
       "name": "Video Review Slider",
       "settings": {}
     },
