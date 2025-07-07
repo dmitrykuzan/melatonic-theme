@@ -55,7 +55,6 @@
     },
     "before_after_slider_TQD9nr": {
       "type": "before-after-slider",
-      "disabled": true,
       "name": "Before After Slider",
       "settings": {}
     },
@@ -87,6 +86,18 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "review_slider_qamVqX": {
+      "type": "review-slider",
+      "disabled": true,
+      "name": "Review Slider",
+      "settings": {}
+    },
+    "ticker_text_hBRgde": {
+      "type": "ticker-text",
+      "disabled": true,
+      "name": "Ticker Text",
+      "settings": {}
     },
     "video_slider_J36J48": {
       "type": "video-slider",
@@ -144,18 +155,6 @@
       "name": "Video Review Slider",
       "settings": {}
     },
-    "review_slider_qamVqX": {
-      "type": "review-slider",
-      "disabled": true,
-      "name": "Review Slider",
-      "settings": {}
-    },
-    "ticker_text_hBRgde": {
-      "type": "ticker-text",
-      "disabled": true,
-      "name": "Ticker Text",
-      "settings": {}
-    },
     "banner_melatonic_image_aqYLmV": {
       "type": "banner-melatonic-image",
       "name": "Banner only image",
@@ -169,9 +168,9 @@
     "melatonic_promo_GpgJfw",
     "before_after_slider_TQD9nr",
     "featured_collection",
-    "video_slider_J36J48",
     "review_slider_qamVqX",
     "ticker_text_hBRgde",
+    "video_slider_J36J48",
     "banner_melatonic_image_aqYLmV"
   ]
 }
