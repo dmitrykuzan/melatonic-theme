@@ -107,6 +107,12 @@
     "video_slider_tEYznC": {
       "type": "video-slider",
       "blocks": {
+        "product_YbJVfA": {
+          "type": "product",
+          "settings": {
+            "product": "melatonic-60ml"
+          }
+        },
         "video_slide_aC4FDt": {
           "type": "video_slide",
           "settings": {
@@ -123,6 +129,7 @@
         }
       },
       "block_order": [
+        "product_YbJVfA",
         "video_slide_aC4FDt",
         "video_slide_8fXniD"
       ],
