@@ -99,65 +99,34 @@
       "name": "Ticker Text",
       "settings": {}
     },
-    "video_slider_J36J48": {
+    "banner_melatonic_image_aqYLmV": {
+      "type": "banner-melatonic-image",
+      "name": "Banner only image",
+      "settings": {}
+    },
+    "video_slider_tEYznC": {
       "type": "video-slider",
       "blocks": {
-        "product_Nw4EcY": {
-          "type": "product",
-          "settings": {
-            "product": "melatonic-60ml"
-          }
-        },
-        "video_slide_6YxQiD": {
+        "video_slide_aC4FDt": {
           "type": "video_slide",
           "settings": {
             "video_url": "https://cdn.shopify.com/videos/c/o/v/46acfd77a4554ce8b4ce278b1b2a7e35.mp4",
             "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/TikDownloader.io_7190785312971361579_hd_-_frame_at_0m0s.jpg?v=1751911688"
           }
         },
-        "video_slide_9EQcjx": {
+        "video_slide_8fXniD": {
           "type": "video_slide",
           "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/46acfd77a4554ce8b4ce278b1b2a7e35.mp4",
-            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/TikDownloader.io_7190785312971361579_hd_-_frame_at_0m0s.jpg?v=1751911688"
-          }
-        },
-        "video_slide_i4CFdK": {
-          "type": "video_slide",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/46acfd77a4554ce8b4ce278b1b2a7e35.mp4",
-            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/TikDownloader.io_7190785312971361579_hd_-_frame_at_0m0s.jpg?v=1751911688"
-          }
-        },
-        "video_slide_TMeYWt": {
-          "type": "video_slide",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/46acfd77a4554ce8b4ce278b1b2a7e35.mp4",
-            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/TikDownloader.io_7190785312971361579_hd_-_frame_at_0m0s.jpg?v=1751911688"
-          }
-        },
-        "video_slide_jdRmri": {
-          "type": "video_slide",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/46acfd77a4554ce8b4ce278b1b2a7e35.mp4",
-            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/TikDownloader.io_7190785312971361579_hd_-_frame_at_0m0s.jpg?v=1751911688"
+            "video_url": "",
+            "poster_url": ""
           }
         }
       },
       "block_order": [
-        "product_Nw4EcY",
-        "video_slide_6YxQiD",
-        "video_slide_9EQcjx",
-        "video_slide_i4CFdK",
-        "video_slide_TMeYWt",
-        "video_slide_jdRmri"
+        "video_slide_aC4FDt",
+        "video_slide_8fXniD"
       ],
       "name": "Video Review Slider",
-      "settings": {}
-    },
-    "banner_melatonic_image_aqYLmV": {
-      "type": "banner-melatonic-image",
-      "name": "Banner only image",
       "settings": {}
     }
   },
@@ -170,7 +139,7 @@
     "featured_collection",
     "review_slider_qamVqX",
     "ticker_text_hBRgde",
-    "video_slider_J36J48",
-    "banner_melatonic_image_aqYLmV"
+    "banner_melatonic_image_aqYLmV",
+    "video_slider_tEYznC"
   ]
 }
