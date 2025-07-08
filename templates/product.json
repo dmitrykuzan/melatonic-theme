@@ -314,10 +314,16 @@
       ],
       "name": "Custom Review List",
       "settings": {}
+    },
+    "before_after_slider_98bR3P": {
+      "type": "before-after-slider",
+      "name": "Before After Slider",
+      "settings": {}
     }
   },
   "order": [
     "main",
+    "before_after_slider_98bR3P",
     "melatonic_benefits_eyid3w",
     "related-products",
     "result_slider_zGryGY",
