@@ -61,6 +61,7 @@
 
 .before-after-slider__slide {
   border-radius: 2rem;
+  cursor: grab;
 }
 
 .before-after-slider__slide-image {
@@ -181,8 +182,12 @@
 
   .before-after-slider__content-wrapper {
     padding-bottom: 5rem;
+    border-radius: 3rem;
   }
 
+  .before-after-slider__slide-image {
+    border-radius: 3rem;
+  } 
 
   .before-after-slider__titles {
     display: flex;
