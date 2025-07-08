@@ -67,9 +67,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    min-width: 8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    min-width: 9rem;
     height: 3rem;
     border-radius: 5rem;
     background-color: #66645E;
