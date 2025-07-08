@@ -1,0 +1,12 @@
+.banner-result {
+  margin-top: 2rem;
+}
+
+.banner-result__wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.banner-result__content {
+  background-color: #F1F0ED;
+}
