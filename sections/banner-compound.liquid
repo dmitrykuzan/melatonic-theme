@@ -1,0 +1,55 @@
+{{ 'banner-result.css' | asset_url | stylesheet_tag }}
+
+<section class="banner-result banner-compound page-width">
+  <div class="banner-result__wrapper">
+    <div class="banner-result__image">
+      <img
+        src="{{ 'banner-compound.jpg' | asset_url }}"
+        width="860"
+        height="860"
+        alt="Melatonic poster"
+        loading="lazy"
+      >
+    </div>
+
+    <div class="banner-result__content">
+      <h2 class="banner-compound__title">what’s inside</h2>
+
+      <div class="banner-compound__text">
+        <p>Get to know the ingredients that support healthy roots and promote visible hair growth.</p>
+      </div>
+
+      <ul class="banner-compound__list">
+        <li class="banner-compound__item">
+          <h3 class="banner-compound__item-title">MELATONIN</h3>
+          <p class="banner-compound__item-description">
+            a naturally occurring molecule that helps regulate hair growth cycles and reduce shedding over time
+          </p>
+        </li>
+
+        <li class="banner-compound__item">
+          <h3 class="banner-compound__item-title">ARGAN OIL</h3>
+          <p class="banner-compound__item-description">
+            a nutrient-rich oil that nourishes the scalp, supports hydration, and enhances hair softness and shine
+          </p>
+        </li>
+      </ul>
+
+      <div class="banner-compound__text">
+        <p>also made with BIOTIN, VITAMIN E, AVOCADO OIL, ALMOND OIL, VITAMIN C</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Banner compound",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Banner compound"
+    }
+  ]
+}
+{% endschema %}
