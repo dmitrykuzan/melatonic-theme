@@ -67,6 +67,86 @@
         "padding_bottom": 12
       }
     },
+    "banner_result_r7bNhR": {
+      "type": "banner-result",
+      "name": "Banner result",
+      "settings": {}
+    },
+    "banner_compound_43dE8r": {
+      "type": "banner-compound",
+      "name": "Banner compound",
+      "settings": {}
+    },
+    "before_after_slider_98bR3P": {
+      "type": "before-after-slider",
+      "name": "Before After Slider",
+      "settings": {}
+    },
+    "faq_with_image_h6L8VQ": {
+      "type": "faq-with-image",
+      "blocks": {
+        "faq_item_Kif3d6": {
+          "type": "faq_item",
+          "settings": {
+            "title": "What Are Alkaloids?",
+            "text": "<p>Melo-tonic is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.</p>"
+          }
+        },
+        "faq_item_wpkMqj": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Where can I use it?",
+            "text": "<p>Melo-tonic is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.</p>"
+          }
+        },
+        "faq_item_iC3Wfb": {
+          "type": "faq_item",
+          "settings": {
+            "title": "How long does it take to see results?+",
+            "text": "<p>Melo-tonic is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.</p>"
+          }
+        },
+        "faq_item_c7eBCh": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Is Melatonic permanent?+",
+            "text": "<p>Melo-tonic is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.</p>"
+          }
+        },
+        "faq_item_fRXGzV": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Does topical melatonin make you tired?+",
+            "text": "<p>Melo-tonic is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.</p>"
+          }
+        },
+        "faq_item_iwTWnq": {
+          "type": "faq_item",
+          "settings": {
+            "title": "How often should I apply it?",
+            "text": "<p>Melo-tonic is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.</p>"
+          }
+        },
+        "faq_item_9FHWqn": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Can I use it with other hair care products?",
+            "text": "<p>Melo-tonic is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_Kif3d6",
+        "faq_item_wpkMqj",
+        "faq_item_iC3Wfb",
+        "faq_item_c7eBCh",
+        "faq_item_fRXGzV",
+        "faq_item_iwTWnq",
+        "faq_item_9FHWqn"
+      ],
+      "name": "FAQ Section (with image)",
+      "settings": {}
+    },
     "melatonic_benefits_eyid3w": {
       "type": "melatonic-benefits",
       "disabled": true,
@@ -314,16 +394,14 @@
       ],
       "name": "Custom Review List",
       "settings": {}
-    },
-    "before_after_slider_98bR3P": {
-      "type": "before-after-slider",
-      "name": "Before After Slider",
-      "settings": {}
     }
   },
   "order": [
     "main",
+    "banner_result_r7bNhR",
+    "banner_compound_43dE8r",
     "before_after_slider_98bR3P",
+    "faq_with_image_h6L8VQ",
     "melatonic_benefits_eyid3w",
     "related-products",
     "result_slider_zGryGY",
