@@ -18,6 +18,8 @@
 }
 
 .custom-review__total {
+  padding-left: 2rem;
+  padding-right: 2rem;
   display: flex;
   margin-bottom: 1.5rem;
 }
@@ -28,6 +30,8 @@
     font-size: 1.8rem;
     line-height: 133%;
     margin-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
@@ -58,6 +62,8 @@
   border-top: 0.1rem solid #000;
   padding-top: 2rem;
   padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   gap: 1.5rem;
   transition: opacity 0.3s linear, visibility 0.3s linear;
 
@@ -68,9 +74,26 @@
   }
 }
 
+.custom-review__toggle-btn  {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 767px) {
+  .custom-review__item {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .custom-review__item-verified {
     font-size: 1.6rem;
+  }
+
+   .custom-review__item {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
@@ -240,30 +263,6 @@
   }
 }
 
-.custom-review__toggle-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #000;
-  border-radius: 1rem;
-  color: #fff;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 133%;
-  outline: none;
-  border: initial;
-  min-height: 5rem;
-  background: #000;
-  width: 100%;
-  max-width: 41rem;
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3rem;
-  transition: background-color 0.3s linear, color 0.3s linear,
-    border 0.3s linear;
-}
 
 .custom-review__toggle-btn:hover {
   background-color: #fff;
@@ -271,9 +270,21 @@
   border: 0.1rem solid #000;
 }
 
-@media screen and (min-width: 1024px) {
-  .custom-review__toggle-btn {
-    font-size: 2.4rem;
-    min-height: 7rem;
+
+
+
+.custom-review__inner {
+  overflow: hidden;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  border-radius: 2rem;
+  background-color: #F1F0ED;
+}
+
+  @media screen and (min-width: 1023px) {
+  .custom-review__inner {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-radius: 3rem;
   }
 }

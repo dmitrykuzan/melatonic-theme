@@ -151,7 +151,6 @@
 }
 
 @media screen and (min-width: 1380px) {
-
   .banner-result__wrapper {
     gap: 5rem;
   }
@@ -185,5 +184,126 @@
 
   .banner-result__bottom {
     margin-top: 5rem;
+  }
+}
+
+/* banner compound */
+
+.banner-compound__wrapper {
+  flex-direction: column;
+}
+
+.banner-compound__title {
+  margin: initial;
+  font-size: 3.2rem;
+  color: #66645E;
+  line-height: 120%;
+  font-weight: 900;
+}
+
+.banner-compound__text {
+  margin-top: 2rem;
+
+  p {
+    margin: initial;
+    font-weight: 500;
+    color: #66645E;
+
+    span {
+      font-weight: 800;
+    }
+  }
+}
+
+.banner-compound__list {
+  list-style: none;
+  margin: initial;
+  padding: initial;
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.banner-compound__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1rem solid #66645E;
+}
+
+.banner-compound__item-title {
+  margin: initial;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 120%;
+  color: #66645E;
+}
+
+.banner-compound__item-description {
+  margin: initial;
+  line-height: 133%;
+  color: #66645E;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1023px) {
+  .banner-compound {
+    .banner-result__content {
+      position: relative;
+      display: flex;
+    }
+  }
+  
+  .banner-compound__wrapper {
+    flex-direction: row;
+  }
+
+  .banner-compound__content-wrapper {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-top: auto;
+  }
+
+  .banner-compound__title {
+    font-size: 4.8rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .banner-compound__title {
+    position: absolute;
+    left: -14rem;
+    top: 24rem;
+    font-size: 6rem;
+    transform: rotate(90deg);
+  }
+
+  .banner-compound__item-title {
+    font-size: 3.4rem;
+  }
+
+  .banner-compound__item-description {
+    font-size: 1.8rem;
+  }
+
+  .banner-compound__text {
+    font-size: 1.8rem;
+  }
+
+ 
+}
+
+@media screen and (min-width: 1380px) {
+ .banner-compound__content-wrapper {
+    max-width: 45rem;
+  }
+}
+
+@media screen and (min-width: 1580px) {
+ .banner-compound__content-wrapper {
+    max-width: 48rem;
   }
 }
