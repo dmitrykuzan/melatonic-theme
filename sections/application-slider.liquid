@@ -1,0 +1,144 @@
+{{ 'application-slider.css' | asset_url | stylesheet_tag }}
+
+<div class="application-slider">
+  <div class="application-slider__wrapper">
+    <div thumbsSlider="" class="swiper application-slider__swiper-thumbnail">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="{{ 'application-slider-1.jpg' | asset_url }}"
+            width="240"
+            height="240"
+            alt="Melatonic banner"
+            loading="lazy"
+          >
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="{{ 'application-slider-2.jpg' | asset_url }}"
+            width="240"
+            height="240"
+            alt="Melatonic banner"
+            loading="lazy"
+          >
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="{{ 'application-slider-3.jpg' | asset_url }}"
+            width="240"
+            height="240"
+            alt="Melatonic banner"
+            loading="lazy"
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper application-slider__swiper-text">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="application-slider__slide-text">
+            <span class="label">APPLICATION</span>
+            <p>
+              01 ) Apply a few drops directly to clean, dry areas of the scalp where thinning or shedding is most
+              noticeable, such as the hairline, crown, or part.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="application-slider__slide-text">
+            <span class="label">APPLICATION</span>
+            <p>
+              02 ) Use your fingertips to gently massage the serum into the scalp for 30–60 seconds to help with
+              absorption and stimulate circulation.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="application-slider__slide-text">
+            <span class="label">APPLICATION</span>
+            <p>
+              03 ) Do not rinse. Let the formula absorb fully overnight for best results. Use once daily, preferably in
+              the evening for consistent results.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+
+  <div class="application-slider__wrapper">
+    <div class="swiper application-slider__swiper-image">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="{{ 'application-slider-1.jpg' | asset_url }}"
+            width="670"
+            height="840"
+            alt="Melatonic banner"
+            loading="lazy"
+          >
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="{{ 'application-slider-2.jpg' | asset_url }}"
+            width="670"
+            height="840"
+            alt="Melatonic banner"
+            loading="lazy"
+          >
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="{{ 'application-slider-3.jpg' | asset_url }}"
+            width="670"
+            height="840"
+            alt="Melatonic banner"
+            loading="lazy"
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const applicationSliderThumb = new Swiper('.application-slider__swiper-thumbnail', {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+  });
+
+  const applicationSliderImage = new Swiper('.application-slider__swiper-image', {
+    spaceBetween: 10,
+
+    thumbs: {
+      swiper: swiper,
+    },
+  });
+
+  const applicationSliderText = new Swiper('.application-slider__swiper-text', {
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.swiper-button-next',
+    },
+
+    thumbs: {
+      swiper: swiper,
+    },
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Application slider",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Application-slider"
+    }
+  ]
+}
+{% endschema %}
