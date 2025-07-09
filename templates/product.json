@@ -27,13 +27,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -41,15 +34,32 @@
         "description": {
           "type": "description",
           "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_HRKqfG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "BENEFITS",
+            "icon": "none",
+            "content": "<ul><li>Sheer-but-buildable color melts onto lips</li><li>Helps immediately lock in moisture</li><li>Nourishes, hydrates, and replenishes dry lips</li><li>Leaves lips feeling pillowy-soft</li><li>Smooths fine lines on the lips and visibly plumps lips over time</li></ul>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "title",
-        "description"
+        "description",
+        "buy_buttons",
+        "collapsible_tab_HRKqfG"
       ],
       "settings": {
         "enable_sticky_info": true,
