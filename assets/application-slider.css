@@ -1,0 +1,7 @@
+.application-slider__container {
+  display: flex;
+}
+
+.application-slider__wrapper {
+  width: 50%;
+}
