@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {}
-        },
         "price": {
           "type": "price",
           "settings": {}
@@ -38,17 +34,21 @@
             "show_gift_card_recipient": true
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
         "description": {
           "type": "description",
           "settings": {}
         }
       },
       "block_order": [
-        "title",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "title",
         "description"
       ],
       "settings": {
