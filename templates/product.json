@@ -50,6 +50,15 @@
             "content": "<ul><li>Sheer-but-buildable color melts onto lips</li><li>Helps immediately lock in moisture</li><li>Nourishes, hydrates, and replenishes dry lips</li><li>Leaves lips feeling pillowy-soft</li><li>Smooths fine lines on the lips and visibly plumps lips over time</li></ul>",
             "page": ""
           }
+        },
+        "collapsible_tab_GXA77C": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "APPLICATION",
+            "icon": "none",
+            "content": "<p>Tint lips day or night. Our buildable formula can be applied in one swipe for sheer color or layered over Pocket Blush and Peptide Lip Shape.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -59,7 +68,8 @@
         "title",
         "description",
         "buy_buttons",
-        "collapsible_tab_HRKqfG"
+        "collapsible_tab_HRKqfG",
+        "collapsible_tab_GXA77C"
       ],
       "settings": {
         "enable_sticky_info": true,
