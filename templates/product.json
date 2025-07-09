@@ -59,6 +59,15 @@
             "content": "<p>Tint lips day or night. Our buildable formula can be applied in one swipe for sheer color or layered over Pocket Blush and Peptide Lip Shape.</p>",
             "page": ""
           }
+        },
+        "collapsible_tab_AUEiKB": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "KEY INGREDIENTS",
+            "icon": "none",
+            "content": "<p>PEPTIDE — a short chain of amino acids that hydrates, smooths, and plumps lips while reducing the look of fine lines<br/>SHEA BUTTER — a nourishing emollient that hydrates and moisturizes with 5 essential fatty acids (palmitic acid, stearic acid, oleic acid, linoleic acid, and arachidic acid)<br/>VITAMIN E — an antioxidant that helps protect against external stressors</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -69,7 +78,8 @@
         "description",
         "buy_buttons",
         "collapsible_tab_HRKqfG",
-        "collapsible_tab_GXA77C"
+        "collapsible_tab_GXA77C",
+        "collapsible_tab_AUEiKB"
       ],
       "settings": {
         "enable_sticky_info": true,
