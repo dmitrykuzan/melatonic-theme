@@ -377,6 +377,13 @@ a.product__text {
   display: none;
 }
 
+.product__info-container {
+  background-color: #F1F0ED;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+
 @media screen and (min-width: 750px) {
   .product__info-container {
     /* max-width: 60rem; */

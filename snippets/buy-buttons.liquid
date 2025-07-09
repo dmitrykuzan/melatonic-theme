@@ -82,14 +82,30 @@
               disabled
             {% endif %}
           >
+            {% comment %}
+              <span>
+                {%- if product.selected_or_first_available_variant == null -%}
+                  {{ 'products.product.unavailable' | t }}
+                {%- elsif product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
+                  {{ 'products.product.sold_out' | t }}
+                {%- else -%}
+                  {{ 'products.product.add_to_cart' | t }}
+                {%- endif -%}
+              </span>
+            {% endcomment %}
             <span>
-              {%- if product.selected_or_first_available_variant == null -%}
-                {{ 'products.product.unavailable' | t }}
-              {%- elsif product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
-                {{ 'products.product.sold_out' | t }}
-              {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
-              {%- endif -%}
+              {% assign variant = product.selected_or_first_available_variant %}
+
+              BUY MELATONIC
+              {% if variant.compare_at_price > variant.price %}
+                <span class="product-price-compare" style="text-decoration: line-through;">
+                  {{ variant.compare_at_price | money }}
+                </span>
+              {% endif %}
+
+              <span class="product-price-current">
+                {{ variant.price | money }}
+              </span>
             </span>
             {%- render 'loading-spinner' -%}
           </button>
