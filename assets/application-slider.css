@@ -120,7 +120,7 @@
 
   .application-slider__two-sliders {
     width: 50%;
-    padding-right: 2rem;
+    padding-right: 1rem;
   }
 
   .application-slider__wrapper {
@@ -148,6 +148,7 @@
 
   .application-slider__wrapper--desktop {
     width: 50%;
+    padding-left: 2.5rem;
   }
 
   .application-slider__swiper-text {
@@ -176,7 +177,7 @@
 
 @media screen and (min-width: 1380px) {
   .application-slider__two-sliders {
-    padding-right: 5rem;
+    padding-right: 2.5rem;
   }
 
  .application-slider__swiper-image {

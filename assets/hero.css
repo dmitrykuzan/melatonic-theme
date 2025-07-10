@@ -18,6 +18,7 @@
 
 
 .hero__image {
+  display: none;
   position: absolute;
   left: 0;
   top: 0;
@@ -32,6 +33,10 @@
     object-fit: cover;
     object-position: bottom;
   }
+}
+
+.hero__image--mobile {
+  display: flex;
 }
 
 .hero__logos {
@@ -185,6 +190,14 @@
   .hero__logos {
     width: calc(100% + 6rem);
     margin-left: -3rem;
+  }
+
+  .hero__image {
+    display: flex;
+  }
+
+  .hero__image--mobile {
+    display: none;
   }
 }
 
