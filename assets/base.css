@@ -135,6 +135,12 @@ html {
   font-weight: 500;
   padding-left: 1rem;
   padding-right: 1rem;
+  transition: border 0.3s linear, color 0.3s linear;
+}
+
+.button-dark:hover {
+  border: 0.2rem solid #000;
+  color: #000;
 }
 
 @media screen and (min-width: 1023px) {
@@ -2499,8 +2505,8 @@ input[type='checkbox'] {
   border-radius: 2rem 2rem 0 0;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   transition: background-color 0.5s linear;
 }
 
@@ -2511,6 +2517,14 @@ input[type='checkbox'] {
 }
 
 .header.is-not-main {
+
+  .header__heading-logo-wrapper-white {
+    opacity: 0;
+  }
+
+  .header__heading-logo-wrapper {
+    opacity: 1;
+  }
 
   .header-custom__wrapper {
     background-color: #F1F0ED;
@@ -2530,6 +2544,11 @@ input[type='checkbox'] {
     color: #66645E;
   }
 
+  .header__buy-now-link:hover {
+    border: 0.2rem solid #000;
+    color: #000;
+  }
+
   .header__icon--cart {
     .svg-wrapper {
       svg {
@@ -2540,8 +2559,42 @@ input[type='checkbox'] {
   }
 }
 
+/* - */
+
+.header__heading {
+  position: relative;
+}
+
+.header__heading-logo-wrapper, .header__heading-logo-wrapper-white {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10rem;
+  height: 6.2rem;
+  opacity: 0;
+  transition: opacity 0.8s linear;
+}
+
+.header__heading-logo-wrapper {
+  opacity: 0;
+}
+
+.header__heading-logo-wrapper-white {
+  opacity: 1;
+}
+
+
 .header.scroll-down {
   background-color: #fff;
+
+  .header__heading-logo-wrapper-white {
+    opacity: 0;
+  }
+
+  .header__heading-logo-wrapper {
+    opacity: 1;
+  }
 
   .list-menu--inline li a {
     color: #66645E;
@@ -2562,9 +2615,14 @@ input[type='checkbox'] {
     background-color: #F1F0ED;
   }
 
-   .header__buy-now-link {
+  .header__buy-now-link {
     border: 0.2rem solid #66645E;
     color: #66645E;
+  }
+
+  .header__buy-now-link:hover {
+    border: 0.2rem solid #000;
+    color: #000;
   }
 
   .header__icon--cart {
@@ -2609,8 +2667,8 @@ input[type='checkbox'] {
 }
 
 .header__buy-now-link:hover {
-  border: 0.2rem solid #41403d;
-  color: #41403d;
+  border: 0.2rem solid #000;
+  color: #000;
 }
 
 @media screen and (min-width: 1200px) {
@@ -2655,6 +2713,11 @@ input[type='checkbox'] {
   .header__buy-now-link {
     border: 0.2rem solid #fff;
     color: #fff;
+  }
+
+  .header__buy-now-link:hover {
+    border: 0.2rem solid #000;
+    color: #000;
   }
 
   .header__icon--cart {
@@ -2775,7 +2838,7 @@ input[type='checkbox'] {
 }
 
 .header__heading-logo-wrapper {
-  width: 100%;
+  /* width: 100%; */
   display: inline-block;
   transition: width 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
 }

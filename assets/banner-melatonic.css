@@ -173,7 +173,6 @@
   }
 }
 
-
 /* banner with image */
 
 .banner-melatonic-image {
@@ -328,11 +327,6 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .ticker-text__wrapper {
-  
-  }
-}
 
 .ticker-text__list {
   display: inline-block;

@@ -177,12 +177,12 @@
       "name": "FAQ Section (with image)",
       "settings": {}
     },
-    "melatonic_benefits_eyid3w": {
-      "type": "melatonic-benefits",
-      "disabled": true,
-      "name": "Melatonic Benefits",
-      "settings": {}
-    },
+    // "melatonic_benefits_eyid3w": {
+    //   "type": "melatonic-benefits",
+    //   "disabled": true,
+    //   "name": "Melatonic Benefits",
+    //   "settings": {}
+    // },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -202,24 +202,24 @@
         "padding_bottom": 28
       }
     },
-    "result_slider_zGryGY": {
-      "type": "result-slider",
-      "disabled": true,
-      "name": "Result Slider",
-      "settings": {}
-    },
-    "product_benefits_Q9CkwU": {
-      "type": "product-benefits",
-      "disabled": true,
-      "name": "Product benefits",
-      "settings": {}
-    },
-    "melatonic_benefits_list_Kz6fQK": {
-      "type": "melatonic-benefits-list",
-      "disabled": true,
-      "name": "Melatonic benefits list",
-      "settings": {}
-    },
+    // "result_slider_zGryGY": {
+    //   "type": "result-slider",
+    //   "disabled": true,
+    //   "name": "Result Slider",
+    //   "settings": {}
+    // },
+    // "product_benefits_Q9CkwU": {
+    //   "type": "product-benefits",
+    //   "disabled": true,
+    //   "name": "Product benefits",
+    //   "settings": {}
+    // },
+    // "melatonic_benefits_list_Kz6fQK": {
+    //   "type": "melatonic-benefits-list",
+    //   "disabled": true,
+    //   "name": "Melatonic benefits list",
+    //   "settings": {}
+    // },
     "collapsible_content_GLbbqt": {
       "type": "collapsible-content",
       "blocks": {
@@ -333,12 +333,12 @@
         "padding_bottom": 36
       }
     },
-    "melatonic_review_rating_pN4BXB": {
-      "type": "melatonic-review-rating",
-      "disabled": true,
-      "name": "Melatonic Rating",
-      "settings": {}
-    },
+    // "melatonic_review_rating_pN4BXB": {
+    //   "type": "melatonic-review-rating",
+    //   "disabled": true,
+    //   "name": "Melatonic Rating",
+    //   "settings": {}
+    // },
     "custom_review_GfAPgy": {
       "type": "custom-review",
       "blocks": {
@@ -438,13 +438,13 @@
     "application_slider_CExgYL",
     "before_after_slider_98bR3P",
     "faq_with_image_h6L8VQ",
-    "melatonic_benefits_eyid3w",
+    // "melatonic_benefits_eyid3w",
     "related-products",
-    "result_slider_zGryGY",
-    "product_benefits_Q9CkwU",
-    "melatonic_benefits_list_Kz6fQK",
+    // "result_slider_zGryGY",
+    // "product_benefits_Q9CkwU",
+    // "melatonic_benefits_list_Kz6fQK",
     "collapsible_content_GLbbqt",
-    "melatonic_review_rating_pN4BXB",
+    // "melatonic_review_rating_pN4BXB",
     "custom_review_GfAPgy"
   ]
 }

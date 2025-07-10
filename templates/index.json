@@ -41,18 +41,18 @@
       "name": "Banner Melatonic",
       "settings": {}
     },
-    "partners_WArexW": {
-      "type": "partners",
-      "disabled": true,
-      "name": "Ticker Partners",
-      "settings": {}
-    },
-    "melatonic_promo_GpgJfw": {
-      "type": "melatonic-promo",
-      "disabled": true,
-      "name": "Melatonic Promo",
-      "settings": {}
-    },
+    // "partners_WArexW": {
+    //   "type": "partners",
+    //   "disabled": true,
+    //   "name": "Ticker Partners",
+    //   "settings": {}
+    // },
+    // "melatonic_promo_GpgJfw": {
+    //   "type": "melatonic-promo",
+    //   "disabled": true,
+    //   "name": "Melatonic Promo",
+    //   "settings": {}
+    // },
     "before_after_slider_TQD9nr": {
       "type": "before-after-slider",
       "blocks": {
@@ -98,18 +98,18 @@
         "padding_bottom": 36
       }
     },
-    "review_slider_qamVqX": {
-      "type": "review-slider",
-      "disabled": true,
-      "name": "Review Slider",
-      "settings": {}
-    },
-    "ticker_text_hBRgde": {
-      "type": "ticker-text",
-      "disabled": true,
-      "name": "Ticker Text",
-      "settings": {}
-    },
+    // "review_slider_qamVqX": {
+    //   "type": "review-slider",
+    //   "disabled": true,
+    //   "name": "Review Slider",
+    //   "settings": {}
+    // },
+    // "ticker_text_hBRgde": {
+    //   "type": "ticker-text",
+    //   "disabled": true,
+    //   "name": "Ticker Text",
+    //   "settings": {}
+    // },
     "video_slider_tEYznC": {
       "type": "video-slider",
       "blocks": {
@@ -175,12 +175,12 @@
   "order": [
     "hero_GmkTFD",
     "banner_melatonic_DVir6m",
-    "partners_WArexW",
-    "melatonic_promo_GpgJfw",
+    // "partners_WArexW",
+    // "melatonic_promo_GpgJfw",
     "before_after_slider_TQD9nr",
     "featured_collection",
-    "review_slider_qamVqX",
-    "ticker_text_hBRgde",
+    // "review_slider_qamVqX",
+    // "ticker_text_hBRgde",
     "video_slider_tEYznC",
     "banner_melatonic_image_aqYLmV"
   ]
