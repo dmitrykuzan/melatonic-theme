@@ -2507,6 +2507,7 @@ input[type='checkbox'] {
   padding-right: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  min-height: 9rem;
   transition: background-color 0.5s linear;
 }
 
@@ -2521,6 +2522,7 @@ input[type='checkbox'] {
   .header__heading-logo-wrapper-white {
     opacity: 0;
   }
+  
 
   .header__heading-logo-wrapper {
     opacity: 1;
@@ -2532,6 +2534,11 @@ input[type='checkbox'] {
 
   .list-menu--inline li a {
     color: #66645E;
+
+    .header__active-menu-item {
+      transition: color 0.5s linear;
+      color: #66645E;
+    }
   }
 
    .secondary-menu ul li a {
