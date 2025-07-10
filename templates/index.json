@@ -41,18 +41,6 @@
       "name": "Banner Melatonic",
       "settings": {}
     },
-    // "partners_WArexW": {
-    //   "type": "partners",
-    //   "disabled": true,
-    //   "name": "Ticker Partners",
-    //   "settings": {}
-    // },
-    // "melatonic_promo_GpgJfw": {
-    //   "type": "melatonic-promo",
-    //   "disabled": true,
-    //   "name": "Melatonic Promo",
-    //   "settings": {}
-    // },
     "before_after_slider_TQD9nr": {
       "type": "before-after-slider",
       "blocks": {
@@ -98,18 +86,6 @@
         "padding_bottom": 36
       }
     },
-    // "review_slider_qamVqX": {
-    //   "type": "review-slider",
-    //   "disabled": true,
-    //   "name": "Review Slider",
-    //   "settings": {}
-    // },
-    // "ticker_text_hBRgde": {
-    //   "type": "ticker-text",
-    //   "disabled": true,
-    //   "name": "Ticker Text",
-    //   "settings": {}
-    // },
     "video_slider_tEYznC": {
       "type": "video-slider",
       "blocks": {
@@ -170,18 +146,31 @@
       "type": "banner-melatonic-image",
       "name": "Banner only image",
       "settings": {}
+    },
+    "banner_melatonic_marquee_3QjAwj": {
+      "type": "banner-melatonic__marquee",
+      "blocks": {
+        "product_qJLzFq": {
+          "type": "product",
+          "settings": {
+            "product": "melatonic-60ml"
+          }
+        }
+      },
+      "block_order": [
+        "product_qJLzFq"
+      ],
+      "name": "Banner with marquee",
+      "settings": {}
     }
   },
   "order": [
     "hero_GmkTFD",
     "banner_melatonic_DVir6m",
-    // "partners_WArexW",
-    // "melatonic_promo_GpgJfw",
     "before_after_slider_TQD9nr",
     "featured_collection",
-    // "review_slider_qamVqX",
-    // "ticker_text_hBRgde",
     "video_slider_tEYznC",
-    "banner_melatonic_image_aqYLmV"
+    "banner_melatonic_image_aqYLmV",
+    "banner_melatonic_marquee_3QjAwj"
   ]
 }
