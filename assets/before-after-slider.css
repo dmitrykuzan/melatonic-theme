@@ -35,13 +35,12 @@
   h2 {
     font-size: 2.8rem;
     line-height: 122%;
-    color: #66645E;
-    font-weight: 500;
   }
 
   p {
-    color: rgba(0, 0, 0, 0.5);
-    line-height: 130%;
+    line-height: 122%;
+    font-weight: 500;
+    color: #66645E;
   }
 
   >* {
@@ -82,7 +81,7 @@
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  font-size: 1rem;
+  font-size: 1.8rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -202,6 +201,10 @@
     h2 {
       font-size: 3.8rem;
     }
+
+    p {
+      font-size: 2.6rem;
+    }
   }
 
   .before-after-slider__swiper {
@@ -231,6 +234,12 @@
       }
     }
   }
+
+  .before-after-slider__slide-text {
+    bottom: 1rem;
+    left: 2rem;
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -248,8 +257,6 @@
   }
 
   .before-after-slider__slide-text {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
   }
-
-  
 }

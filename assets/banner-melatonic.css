@@ -40,9 +40,7 @@
 .banner-melatonic__title {
   margin: initial;
   text-align: center;
-  font-weight: 900;
   font-size: 2.8rem;
-  color: #66645E;
   line-height: 120%;
 }
 
@@ -55,7 +53,6 @@
   .text {
     font-size: 2.4rem;
     font-weight: 900;
-    color: #66645E;
     line-height: 120%;
   }
 
@@ -84,7 +81,6 @@
 .banner-melatonic__description {
   margin: initial;
   line-height: 166%;
-  color: #66645E;
   text-align: center;
 }
 
@@ -350,7 +346,6 @@
   font-size: 3.2rem;
   line-height: 125%;
   font-weight: 400;
-  color: #66645E;
 }
 
 @media screen and (min-width: 1023px) {

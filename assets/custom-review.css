@@ -1,21 +1,14 @@
 .custom-review {
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+  margin-top: 2rem;
+  /* margin-bottom: 8rem; */
 }
 
 @media screen and (min-width: 1024px) {
   .custom-review {
-    margin-top: 5rem;
-    margin-bottom: 15rem;
+    margin-top: 7rem;
   }
 }
 
-@media screen and (min-width: 1480px) {
-  .custom-review {
-    margin-top: 10rem;
-    margin-bottom: 15rem;
-  }
-}
 
 .custom-review__total {
   padding-left: 2rem;
@@ -47,7 +40,6 @@
 .custom-review__item-verified {
   display: flex;
   align-items: center;
-  color: #000;
   font-size: 1.4rem;
 
   svg {
@@ -105,7 +97,6 @@
 
 .custom-review__item-title {
   font-weight: 700; /* BOLDER TITLE */
-  color: #000;
   margin: initial;
 }
 
@@ -225,7 +216,7 @@
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 120%;
-  color: #000;
+  color: #555555;
 }
 
 @media screen and (min-width: 1024px) {
@@ -237,7 +228,6 @@
 .custom-review__item-text {
   p {
     margin: initial;
-    color: #000;
     line-height: 166%;
   }
 }

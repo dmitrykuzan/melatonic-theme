@@ -3,7 +3,7 @@
 <section class="before-after-slider page-width section-melatonin" id="VideoSlider{{ section.id }}">
   <div class="before-after-slider__content-wrapper">
     <div class="before-after-slider__titles">
-      <h2>rooted in results.</h2>
+      <h2 class="section-title-melatonic">rooted in results.</h2>
 
       <div class="hero__review">
         <div class="melatonic-rating-stars">
@@ -105,7 +105,7 @@
     const videoSlider = new Swiper('.video-slider__swiper', {
       spaceBetween: 15,
       slidesPerView: 1.5,
-      autoHeight: true,
+      speed: 800,
 
       pagination: {
         el: '.video-slider__pagination',
@@ -122,18 +122,15 @@
         767: {
           spaceBetween: 15,
           slidesPerView: 2,
-          autoHeight: true,
         },
 
         1023: {
           slidesPerView: 3,
-          autoHeight: true,
         },
 
         1140: {
           spaceBetween: 15,
           slidesPerView: 3,
-          autoHeight: true,
         },
 
         1480: {

@@ -63,7 +63,6 @@
 
     .label {
       font-weight: 900;
-      color: #66645E;
       font-size: 1.8rem;
       line-height: 110%;
     }
@@ -72,12 +71,10 @@
       margin: initial;
       font-size: 1.8rem;
       font-weight: 500;
-      color: #66645E;
       line-height: 155%;
 
       span {
         font-size: 1.2rem;
-        color: #66645E;
         font-weight: 600;
       }
     }
@@ -166,6 +163,15 @@
       }
     }
   }
+    .application-slider__swiper-text {
+      .before-after-slider__btns {
+        .before-after-slider__btn {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+    }
+
 }
 
 @media screen and (min-width: 1380px) {

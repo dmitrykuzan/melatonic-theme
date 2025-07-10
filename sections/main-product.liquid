@@ -75,14 +75,14 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
-      <div class="grid__item">
+      <div class="grid__item grid__item-melatonic">
         {% comment %} {% render 'product-media-gallery', variant_images: variant_images %} {% endcomment %}
-        {% render 'volufiline-product-slider' %}
+        {% render 'melatonic-product-slider' %}
       </div>
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <section
           id="ProductInfo-{{ section.id }}"
-          class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
+          class="product__info-container"
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
@@ -212,6 +212,7 @@
                 </p>
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
+
               {%- when 'collapsible_tab' -%}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                   <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -462,6 +463,35 @@
                   section_id: section.id,
                   show_pickup_availability: true
                 -%}
+
+                <div class="product__upgrade">
+                  <div class="product__upgrade-top">
+                    <p>or 4 interest-free payments of $9.50 with afterpay</p>
+                  </div>
+
+                  <div class="product__upgrade-bottom">
+                    <p class="product__upgrade-title">UPGRADE YOUR ROUTINE</p>
+                    <div class="product__upgrade-wrapper">
+                      <div class="product__upgrade-content">
+                        <span class="product__upgrade-text"
+                          >BUY TWO <br>
+                          + <br>
+                          ONE FREE</span
+                        >
+                        <img
+                          src="{{ 'product-upgrade.png' | asset_url }}"
+                          width="100"
+                          height="117"
+                          alt="Melatonic product"
+                          loading="lazy"
+                        >
+                        <span class="product__upgrade-name">THE ULTIMATE GROWTH SET</span>
+                      </div>
+
+                      <a href="#" class="product__upgrade-link button-dark">ADD - $76 $114</a>
+                    </div>
+                  </div>
+                </div>
 
               {%- when 'popup' -%}
                 <modal-opener

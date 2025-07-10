@@ -1,5 +1,5 @@
 .faq-with-image {
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 
 .faq-with-image__wrapper {
@@ -26,7 +26,6 @@
   h2 {
     margin: initial;
     font-size: 3.2rem;
-    color: #66645E;
     line-height: 122%;
     font-weight: 500;
   }
@@ -34,7 +33,6 @@
   p {
     margin: initial;
     font-weight: 500;
-    color: #66645E;
     line-height: 122%;
   }
 }
@@ -128,6 +126,10 @@
 }
 
 @media screen and (min-width: 1023px) {
+  .faq-with-image {
+    margin-top: 7rem;
+  } 
+
   .faq-with-image__wrapper {
     flex-direction: row-reverse;
   }

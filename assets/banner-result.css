@@ -34,7 +34,6 @@
   width: max-content;
   padding-bottom: 0.5rem;
   border-bottom: 0.1rem solid #ADADAD;
-  color: #66645E;
   font-weight: 900;
 }
 
@@ -62,7 +61,6 @@
     .text {
       margin: initial;
       line-height: 133%;
-      color: #66645E;
       font-weight: 500;
     }
   }
@@ -196,7 +194,6 @@
 .banner-compound__title {
   margin: initial;
   font-size: 3.2rem;
-  color: #66645E;
   line-height: 120%;
   font-weight: 900;
 }
@@ -207,7 +204,6 @@
   p {
     margin: initial;
     font-weight: 500;
-    color: #66645E;
 
     span {
       font-weight: 800;
@@ -239,13 +235,11 @@
   font-size: 2.4rem;
   font-weight: 600;
   line-height: 120%;
-  color: #66645E;
 }
 
 .banner-compound__item-description {
   margin: initial;
   line-height: 133%;
-  color: #66645E;
   font-weight: 500;
 }
 

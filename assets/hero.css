@@ -72,15 +72,15 @@
 
 .hero__title {
   font-size: 3.2rem;
-  line-height: 133%;
-  font-weight: 900;
+  line-height: 122%;
+  font-weight: 600;
   color: #fff;
   margin: initial;
 }
 
 .hero__subtitle {
   font-size: 1.4rem;
-  line-height: 166%;
+  line-height: 125%;
   color: #fff;
   margin: initial;
 }
@@ -170,6 +170,7 @@
   }
 
   .hero__product-link {
+    font-weight: 500;
     min-height: 5rem;
     max-width: 25rem;
     font-size: 1.8rem;
