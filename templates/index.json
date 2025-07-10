@@ -57,6 +57,22 @@
       "name": "Before After Slider",
       "settings": {}
     },
+    "banner_melatonic_marquee_3QjAwj": {
+      "type": "banner-melatonic__marquee",
+      "blocks": {
+        "product_qJLzFq": {
+          "type": "product",
+          "settings": {
+            "product": "melatonic-60ml"
+          }
+        }
+      },
+      "block_order": [
+        "product_qJLzFq"
+      ],
+      "name": "Banner with marquee",
+      "settings": {}
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -146,31 +162,15 @@
       "type": "banner-melatonic-image",
       "name": "Banner only image",
       "settings": {}
-    },
-    "banner_melatonic_marquee_3QjAwj": {
-      "type": "banner-melatonic__marquee",
-      "blocks": {
-        "product_qJLzFq": {
-          "type": "product",
-          "settings": {
-            "product": "melatonic-60ml"
-          }
-        }
-      },
-      "block_order": [
-        "product_qJLzFq"
-      ],
-      "name": "Banner with marquee",
-      "settings": {}
     }
   },
   "order": [
     "hero_GmkTFD",
     "banner_melatonic_DVir6m",
     "before_after_slider_TQD9nr",
+    "banner_melatonic_marquee_3QjAwj",
     "featured_collection",
     "video_slider_tEYznC",
-    "banner_melatonic_image_aqYLmV",
-    "banner_melatonic_marquee_3QjAwj"
+    "banner_melatonic_image_aqYLmV"
   ]
 }
