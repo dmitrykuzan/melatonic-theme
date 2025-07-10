@@ -132,7 +132,7 @@
   }
 
   .banner-result__image {
-    max-height: initial;
+    max-height: 77rem;
     width: 50%;
     border-radius: 3rem;
     overflow: hidden;
