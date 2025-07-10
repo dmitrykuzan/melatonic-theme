@@ -107,6 +107,11 @@
       "name": "Banner compound",
       "settings": {}
     },
+    "application_slider_CExgYL": {
+      "type": "application-slider",
+      "name": "Application-slider",
+      "settings": {}
+    },
     "before_after_slider_98bR3P": {
       "type": "before-after-slider",
       "name": "Before After Slider",
@@ -177,12 +182,6 @@
       "name": "FAQ Section (with image)",
       "settings": {}
     },
-    // "melatonic_benefits_eyid3w": {
-    //   "type": "melatonic-benefits",
-    //   "disabled": true,
-    //   "name": "Melatonic Benefits",
-    //   "settings": {}
-    // },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -202,143 +201,6 @@
         "padding_bottom": 28
       }
     },
-    // "result_slider_zGryGY": {
-    //   "type": "result-slider",
-    //   "disabled": true,
-    //   "name": "Result Slider",
-    //   "settings": {}
-    // },
-    // "product_benefits_Q9CkwU": {
-    //   "type": "product-benefits",
-    //   "disabled": true,
-    //   "name": "Product benefits",
-    //   "settings": {}
-    // },
-    // "melatonic_benefits_list_Kz6fQK": {
-    //   "type": "melatonic-benefits-list",
-    //   "disabled": true,
-    //   "name": "Melatonic benefits list",
-    //   "settings": {}
-    // },
-    "collapsible_content_GLbbqt": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_iRhFrq": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What is Melatonic?",
-            "icon": "none",
-            "row_content": "<p>Volufiline is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.<br/><br/></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_K4Dipm": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Where can I use it?",
-            "icon": "none",
-            "row_content": "<p>Volufiline is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.<br/><br/></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_kwFCkA": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How long does it take to see results?",
-            "icon": "none",
-            "row_content": "<p>Volufiline is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.<br/><br/></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_TrTQWL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is Melatonic permanent?",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_3WfFkc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Does topical melatonin make you tired?",
-            "icon": "none",
-            "row_content": "<p>Volufiline is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.<br/><br/></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_x4kUiA": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How often should I apply it?",
-            "icon": "none",
-            "row_content": "<p>Volufiline is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.<br/><br/></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_B4HjQa": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I use it with other hair care products?",
-            "icon": "none",
-            "row_content": "<p>Volufiline is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.<br/><br/></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_CKfhD9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is it safe for sensitive scalps?",
-            "icon": "none",
-            "row_content": "<p>Volufiline is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.<br/><br/></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_RVG33R": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Does it really work?",
-            "icon": "none",
-            "row_content": "<p>Volufiline is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it's applied, giving a fuller, plumper appearance over time.<br/><br/></p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_iRhFrq",
-        "collapsible_row_K4Dipm",
-        "collapsible_row_kwFCkA",
-        "collapsible_row_TrTQWL",
-        "collapsible_row_3WfFkc",
-        "collapsible_row_x4kUiA",
-        "collapsible_row_B4HjQa",
-        "collapsible_row_CKfhD9",
-        "collapsible_row_RVG33R"
-      ],
-      "disabled": true,
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    // "melatonic_review_rating_pN4BXB": {
-    //   "type": "melatonic-review-rating",
-    //   "disabled": true,
-    //   "name": "Melatonic Rating",
-    //   "settings": {}
-    // },
     "custom_review_GfAPgy": {
       "type": "custom-review",
       "blocks": {
@@ -424,11 +286,6 @@
       ],
       "name": "Custom Review List",
       "settings": {}
-    },
-    "application_slider_CExgYL": {
-      "type": "application-slider",
-      "name": "Application-slider",
-      "settings": {}
     }
   },
   "order": [
@@ -438,13 +295,7 @@
     "application_slider_CExgYL",
     "before_after_slider_98bR3P",
     "faq_with_image_h6L8VQ",
-    // "melatonic_benefits_eyid3w",
-    "related-products",
-    // "result_slider_zGryGY",
-    // "product_benefits_Q9CkwU",
-    // "melatonic_benefits_list_Kz6fQK",
-    "collapsible_content_GLbbqt",
-    // "melatonic_review_rating_pN4BXB",
-    "custom_review_GfAPgy"
+    "custom_review_GfAPgy",
+    "related-products"
   ]
 }
