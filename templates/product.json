@@ -112,9 +112,20 @@
       "name": "Application-slider",
       "settings": {}
     },
-    "before_after_slider_98bR3P": {
-      "type": "before-after-slider",
-      "name": "Before After Slider",
+    "before_after_slider_product_tryxX8": {
+      "type": "before-after-slider-product",
+      "blocks": {
+        "product_LbcdEC": {
+          "type": "product",
+          "settings": {
+            "product": "melatonic-60ml"
+          }
+        }
+      },
+      "block_order": [
+        "product_LbcdEC"
+      ],
+      "name": "Before After Slider Product",
       "settings": {}
     },
     "faq_with_image_h6L8VQ": {
@@ -326,7 +337,7 @@
     "banner_result_r7bNhR",
     "banner_compound_43dE8r",
     "application_slider_CExgYL",
-    "before_after_slider_98bR3P",
+    "before_after_slider_product_tryxX8",
     "faq_with_image_h6L8VQ",
     "custom_review_GfAPgy",
     "related-products"
