@@ -521,6 +521,7 @@
 @media screen and (min-width: 1023px) {
   .result-slider__slide {
     gap: 3rem;
+    cursor: grab;
   }
 }
 

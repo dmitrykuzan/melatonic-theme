@@ -156,6 +156,7 @@
   .faq-with-image__picture {
     border-radius: 3rem;
     overflow: hidden;
+    max-height: 70rem;
   }
 
   .faq-with-image__content {
@@ -163,6 +164,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 5rem;
+    height: max-content;
   }
 }
 
@@ -174,6 +176,12 @@
 
   .faq__item-title {
     font-size: 2.4rem;
+  }
+
+  .faq-with-image__picture {
+    border-radius: 3rem;
+    overflow: hidden;
+    max-height: 75.5rem;
   }
 }
 
