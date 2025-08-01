@@ -47,7 +47,7 @@
           "settings": {
             "heading": "BENEFITS",
             "icon": "none",
-            "content": "<ul><li>Powered by melatonin, a science backed ingredient for hair regrowth</li><li>Promotes visibly fuller, thicker hair</li><li>Calms and nourishes the scalp</li><li>Made with vegan, non-greasy oils for lightweight moisture</li><li>Boosts natural hair restoration without harsh chemicals or buildup</li></ul>",
+            "content": "<p>Supports healthy hair growth with biotin</p><p>Rosemary oil helps stimulate hair follicles</p><p>Deeply nourishes with avocado and castor oils</p><p>Lightweight, non-greasy formula for daily use</p><p>Free from harsh chemicals and buildup</p>",
             "page": ""
           }
         },
@@ -56,7 +56,7 @@
           "settings": {
             "heading": "APPLICATION",
             "icon": "none",
-            "content": "<p>Melatonic is a lightweight serum designed for easy, targeted use. </p><ul><li>Apply 2-3 drops directly to the scalp, ideally at night.</li><li>Gently massage in with fingertips for even absorption.</li><li>Use consistently on clean, dry scalp for best results.</li></ul>",
+            "content": "<p>Rootiva is a lightweight serum designed for easy, targeted use. </p><ul><li>Apply 2-3 drops directly to the scalp, ideally at night.</li><li>Gently massage in with fingertips for even absorption.</li><li>Use consistently on clean, dry scalp for best results.</li></ul>",
             "page": ""
           }
         },
@@ -65,7 +65,7 @@
           "settings": {
             "heading": "KEY INGREDIENTS",
             "icon": "none",
-            "content": "<p>MELATONIN — a powerful antioxidant that supports the hair growth cycle, soothes the scalp, and helps reduce shedding for fuller, thicker hair over time<br/>ARGAN OIL — rich in fatty acids and vitamin E, it deeply nourishes and hydrates the scalp while adding shine and softness to hair strands<br/>BIOTIN — a B-vitamin that helps strengthen hair at the root, supporting healthier growth and improving hair density<br/>VITAMIN C — boosts collagen production to help strengthen the scalp and improve the overall structure of growing hair.<br/>ALMOND OIL — packed with magnesium and proteins, it helps smooth hair texture, reduce breakage, and support a healthy scalp environment.</p>",
+            "content": "<p><strong>BIOTIN</strong> — a B-vitamin that supports stronger strands by nourishing hair at the root and promoting thicker, fuller growth over time</p><p><strong>ROSEMARY OIL</strong> — helps stimulate scalp circulation, reactivating dormant follicles and encouraging new hair growth</p><p><strong>AVOCADO OIL</strong> — rich in essential fatty acids, it deeply moisturizes the scalp while improving elasticity and softness</p><p><strong>CASTOR OIL</strong> — known for its thickening properties, it locks in moisture and helps protect hair from breakage and damage</p>",
             "page": ""
           }
         }
