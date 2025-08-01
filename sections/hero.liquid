@@ -13,13 +13,13 @@
       <div class="hero__text">
         <h1 class="hero__title">regrow your natural hair in 30 days</h1>
         <p class="hero__subtitle">
-          Find out why Melatonic is the industry’s leading topical melatonin solution for promoting hair growth.
+          Find out why Rootiva is the industry’s leading topical hair growth oil for natural results.
         </p>
 
         {% for block in section.blocks %}
           {% if block.type == 'product' and block.settings.product %}
             {% assign product = block.settings.product %}
-            <a class="hero__product-link" href="{{ product.url }}">Boost hair growth</a>
+            <a class="hero__product-link" href="{{ product.url }}">Boost Hair Growth</a>
           {% endif %}
         {% endfor %}
       </div>
