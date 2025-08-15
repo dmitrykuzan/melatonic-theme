@@ -286,6 +286,7 @@
         },
         "list_item_CYDARr": {
           "type": "list_item",
+          "name": "Layla Customer Review",
           "settings": {
             "name_customer": "Layla",
             "title_review": "Rootiva",
@@ -296,6 +297,7 @@
         },
         "list_item_fwj6G7": {
           "type": "list_item",
+          "name": "Zoe Customer Review",
           "settings": {
             "name_customer": "Zoe",
             "title_review": "Rootiva",
