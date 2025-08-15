@@ -198,6 +198,7 @@
       "blocks": {
         "list_item_igrTjp": {
           "type": "list_item",
+          "name": " Ava Customer Review ",
           "settings": {
             "name_customer": "Ava",
             "title_review": "Rootiva",
@@ -208,6 +209,7 @@
         },
         "list_item_yxc6Xm": {
           "type": "list_item",
+          "name": "Angela Customer Review",
           "settings": {
             "name_customer": "Angela",
             "title_review": "Rootiva",
@@ -218,6 +220,7 @@
         },
         "list_item_JWE7N4": {
           "type": "list_item",
+          "name": "Sophia Customer Review",
           "settings": {
             "name_customer": "Sophia",
             "title_review": "Rootiva",
@@ -228,8 +231,9 @@
         },
         "list_item_taiAN9": {
           "type": "list_item",
+          "name": "Michelle Customer Review",
           "settings": {
-            "name_customer": "Ethan",
+            "name_customer": "Michelle",
             "title_review": "Rootiva",
             "review_date": "2 weeks ago",
             "review_rating": 5,
