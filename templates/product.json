@@ -242,6 +242,7 @@
         },
         "list_item_iFbLb4": {
           "type": "list_item",
+          "name": "Isabella Customer Review",
           "settings": {
             "name_customer": "Isabella",
             "title_review": "Rootiva",
@@ -252,8 +253,9 @@
         },
         "list_item_H7JdMP": {
           "type": "list_item",
+          "name": "Patrice Customer Review",
           "settings": {
-            "name_customer": "Noah",
+            "name_customer": "Patrice",
             "title_review": "Rootiva",
             "review_date": "2 weeks ago",
             "review_rating": 5,
