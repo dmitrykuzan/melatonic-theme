@@ -319,10 +319,11 @@
         },
         "list_item_6rnVKK": {
           "type": "list_item",
+          "name": "Beth Customer Review",
           "settings": {
-            "name_customer": "",
+            "name_customer": "Beth",
             "title_review": "Melatonic • Hair Growth Solution",
-            "review_date": "",
+            "review_date": "5 days ago",
             "review_rating": 5,
             "review_text": "<p>Lightning fast delivery, great job</p>"
           }
