@@ -341,12 +341,13 @@
         },
         "list_item_DWctVp": {
           "type": "list_item",
+          "name": "Mel Customer Review",
           "settings": {
-            "name_customer": "",
-            "title_review": "Melatonic • Hair Growth Solution",
-            "review_date": "",
+            "name_customer": "Mel",
+            "title_review": "Amazing Experience",
+            "review_date": "6 days ago",
             "review_rating": 5,
-            "review_text": "<p>Lightning fast delivery, great job</p>"
+            "review_text": "<p>After my fourth child, my postpartum hair loss was really bad. With consistent use of this product, my hair has grown back even fuller than it was before pregnancy. My mom even said, “I haven’t seen your hair this thick since you were young.” Truly an amazing product!</p>"
           }
         },
         "list_item_THDEmf": {
