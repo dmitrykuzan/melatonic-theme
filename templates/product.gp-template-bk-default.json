@@ -1,0 +1,415 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_HRKqfG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "BENEFITS",
+            "icon": "none",
+            "content": "<p>Supports healthy hair growth with biotin</p><p>Rosemary oil helps stimulate hair follicles</p><p>Deeply nourishes with avocado and castor oils</p><p>Lightweight, non-greasy formula for daily use</p><p>Free from harsh chemicals and buildup</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_GXA77C": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "APPLICATION",
+            "icon": "none",
+            "content": "<p>Rootiva is a lightweight serum designed for easy, targeted use. </p><ul><li>Apply 2-3 drops directly to the scalp, ideally at night.</li><li>Gently massage in with fingertips for even absorption.</li><li>Use consistently on clean, dry scalp for best results.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_AUEiKB": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "KEY INGREDIENTS",
+            "icon": "none",
+            "content": "<p><strong>BIOTIN</strong> — a B-vitamin that supports stronger strands by nourishing hair at the root and promoting thicker, fuller growth over time</p><p><strong>ROSEMARY OIL</strong> — helps stimulate scalp circulation, reactivating dormant follicles and encouraging new hair growth</p><p><strong>AVOCADO OIL</strong> — rich in essential fatty acids, it deeply moisturizes the scalp while improving elasticity and softness</p><p><strong>CASTOR OIL</strong> — known for its thickening properties, it locks in moisture and helps protect hair from breakage and damage</p><p><strong>ALMOND OIL</strong> — rich in vitamins A, B, and E, it nourishes the scalp, softens strands, and promotes smooth, shiny, healthy hair</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "title",
+        "description",
+        "buy_buttons",
+        "collapsible_tab_HRKqfG",
+        "collapsible_tab_GXA77C",
+        "collapsible_tab_AUEiKB"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "banner_result_r7bNhR": {
+      "type": "banner-result",
+      "name": "Banner result",
+      "settings": {}
+    },
+    "banner_compound_43dE8r": {
+      "type": "banner-compound",
+      "name": "Banner compound",
+      "settings": {}
+    },
+    "application_slider_CExgYL": {
+      "type": "application-slider",
+      "name": "Application-slider",
+      "settings": {}
+    },
+    "before_after_slider_product_tryxX8": {
+      "type": "before-after-slider-product",
+      "blocks": {
+        "product_LbcdEC": {
+          "type": "product",
+          "settings": {
+            "product": "melatonic-60ml"
+          }
+        }
+      },
+      "block_order": [
+        "product_LbcdEC"
+      ],
+      "name": "Before After Slider Product",
+      "settings": {}
+    },
+    "faq_with_image_h6L8VQ": {
+      "type": "faq-with-image",
+      "blocks": {
+        "faq_item_Kif3d6": {
+          "type": "faq_item",
+          "settings": {
+            "title": "How long does it take to see results?",
+            "text": "<p>Most users notice reduced shedding and early signs of regrowth (like baby hairs) within 2–4 weeks. Fuller, visibly denser hair can take 6–8 weeks with consistent use.</p>"
+          }
+        },
+        "faq_item_wpkMqj": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Is Rootiva permanent?",
+            "text": "<p>While Rootiva supports long-term hair health, results are maintained with ongoing use. Like most topical treatments, hair may gradually revert if usage stops.</p><p></p>"
+          }
+        },
+        "faq_item_iC3Wfb": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Can I use Rootiva with other hair products?",
+            "text": "<p>Yes, Rootiva can be used alongside your existing haircare routine. Just make sure to apply it first on a clean scalp before using styling products.</p>"
+          }
+        },
+        "faq_item_c7eBCh": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Is it safe for sensitive scalps?",
+            "text": "<p>Rootiva is formulated to be gentle and non-irritating. However, if you have a history of scalp sensitivity, we recommend patch testing before full use.<br/><br/></p>"
+          }
+        },
+        "faq_item_fRXGzV": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Does it really work?",
+            "text": "<p>Yes — Rootiva is powered by science-backed ingredients like biotin and rosemary oil, both known to support healthy hair growth. Our formula is designed to nourish the scalp, reactivate dormant follicles, and promote visibly thicker, fuller hair over time. Most users start noticing improvements in 4–8 weeks with consistent daily use.</p>"
+          }
+        },
+        "faq_item_iwTWnq": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Will it make my hair greasy?",
+            "text": "<p>No. Rootiva is fast-absorbing and water-based — no residue and no greasy feel.<br/><br/></p>"
+          }
+        },
+        "faq_item_9FHWqn": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Does it work for men and women?",
+            "text": "<p>Yes, it’s designed to be effective and safe for all genders dealing with hair thinning or loss.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_Kif3d6",
+        "faq_item_wpkMqj",
+        "faq_item_iC3Wfb",
+        "faq_item_c7eBCh",
+        "faq_item_fRXGzV",
+        "faq_item_iwTWnq",
+        "faq_item_9FHWqn"
+      ],
+      "name": "FAQ Section (with image)",
+      "settings": {}
+    },
+    "custom_review_GfAPgy": {
+      "type": "custom-review",
+      "blocks": {
+        "list_item_igrTjp": {
+          "type": "list_item",
+          "name": " Ava Customer Review ",
+          "settings": {
+            "name_customer": "Ava",
+            "title_review": "Noticeable Difference",
+            "review_date": "2 days ago",
+            "review_rating": 5,
+            "review_text": "<p>I’ve been dealing with hair thinning for a while, and after trying several products, I finally found one that actually made a difference. Within just a few weeks, I noticed less shedding in the shower and my hair started to feel fuller and healthier. It’s not a miracle overnight fix, but with consistent use, the results are noticeable and encouraging. If you’re struggling with thinning hair, this is definitely worth a try.</p>"
+          }
+        },
+        "list_item_yxc6Xm": {
+          "type": "list_item",
+          "name": "Angela Customer Review",
+          "settings": {
+            "name_customer": "Angela",
+            "title_review": "Thicker All Over",
+            "review_date": "2 days ago",
+            "review_rating": 5,
+            "review_text": "<p>After 6 months I saw a complete transformation (like seriously). My hair is thicker all over now, with way more volume and strength than before. My edges have grown back a LOT (almost completely filled in!!) and I’m so happy with the progress. I feel more confident than ever.</p>"
+          }
+        },
+        "list_item_JWE7N4": {
+          "type": "list_item",
+          "name": "Sophia Customer Review",
+          "settings": {
+            "name_customer": "Sophia",
+            "title_review": "Healthier and Shinier",
+            "review_date": "3 days ago",
+            "review_rating": 5,
+            "review_text": "<p>I am OBSESSED with this oil!! Been using it for about a month and the difference is CRAZY (in the best way). My hair feels healthier, looks shinier, and I’ve even noticed less shedding. 100% recommend!!</p>"
+          }
+        },
+        "list_item_taiAN9": {
+          "type": "list_item",
+          "name": "Michelle Customer Review",
+          "settings": {
+            "name_customer": "Michelle",
+            "title_review": "Fuller Hair Already",
+            "review_date": "4 days ago",
+            "review_rating": 5,
+            "review_text": "<p>I’ve been using this serum for a little over two months now, and I’m starting to see a real difference. My hair feels thicker at the roots and looks a bit fuller overall. It’s very easy to use — just a few drops at night, and it doesn’t leave my hair greasy or heavy. You definitely have to be consistent and patient with it.</p>"
+          }
+        },
+        "list_item_iFbLb4": {
+          "type": "list_item",
+          "name": "Isabella Customer Review",
+          "settings": {
+            "name_customer": "Isabella",
+            "title_review": "Thinning Areas Restored",
+            "review_date": "4 days ago",
+            "review_rating": 4,
+            "review_text": "<p>I started using the serum in January 2025, and it’s made a noticeable difference in my thinning areas. I apply it almost daily to my temples and that stubborn spot in the back, and both have filled in so much. I still experience a little shedding, but it’s nothing compared to what it was before I began using the serum.</p>"
+          }
+        },
+        "list_item_H7JdMP": {
+          "type": "list_item",
+          "name": "Patrice Customer Review",
+          "settings": {
+            "name_customer": "Patrice",
+            "title_review": "Shedding Stopped",
+            "review_date": "4 days ago",
+            "review_rating": 5,
+            "review_text": "<p>It took about two months, but I noticed my shedding had completely stopped, and that was wild because I used to shed all the time. Now I hardly see any hair in the shower and barely any shedding at all. My hair is growing in so much better, and I’m not ever letting this go.</p>"
+          }
+        },
+        "list_item_BGhddG": {
+          "type": "list_item",
+          "name": "Maya Customer Review",
+          "settings": {
+            "name_customer": "Maya",
+            "title_review": "Hair Growing Faster",
+            "review_date": "5 days ago",
+            "review_rating": 4,
+            "review_text": "<p>My hair is growing SOO much faster in the past month I’ve been using this than the last five months of me trying EVERYTHING else!! I’m honestly so surprised at the difference!! Will be buying again!!</p>"
+          }
+        },
+        "list_item_hPUWcy": {
+          "type": "list_item",
+          "name": "Sharon Customer Review",
+          "settings": {
+            "name_customer": "Sharon",
+            "title_review": "Regrowth in Weeks",
+            "review_date": "5 days ago",
+            "review_rating": 5,
+            "review_text": "<p>I cannot recommend this product enough!! I started using it 3 weeks ago after my hair went through some really bad breakage. My hairdresser told me it would take about a year to get my hair to grow back properly, but in just weeks I have seen what looks like months of regrowth. If you are on the fence just get it, you will NOT regret it!!</p>"
+          }
+        },
+        "list_item_CYDARr": {
+          "type": "list_item",
+          "name": "Layla Customer Review",
+          "settings": {
+            "name_customer": "Layla",
+            "title_review": "Best Hair Product Ever",
+            "review_date": "5 days ago",
+            "review_rating": 4,
+            "review_text": "<p>Laaaddiiiesss!! This is hands down the BEST thing I have EVER gotten for my hair!! I’m never going back to drugstore products ever! My hair is longer, shinier, thicker, and stronger after just a few weeks of using it. 10/10… get it NOW!!</p>"
+          }
+        },
+        "list_item_fwj6G7": {
+          "type": "list_item",
+          "name": "Zoe Customer Review",
+          "settings": {
+            "name_customer": "Zoe",
+            "title_review": "Noticeable Density and Quality",
+            "review_date": "5 days ago",
+            "review_rating": 5,
+            "review_text": "<p>I have suffered from periodic hair loss primarily due to thryroid and perimenopause and have tried a multitude of products over the last 5 years. I have been using this product for about three months in conjuction with Nutrafol hair vitamins and have noticed a difference in the density and quality of my hair. I would recommend!</p>"
+          }
+        },
+        "list_item_qJdGcK": {
+          "type": "list_item",
+          "name": "Caroline Customer Review",
+          "settings": {
+            "name_customer": "Caroline",
+            "title_review": "Fuller and Healthier",
+            "review_date": "5 days ago",
+            "review_rating": 5,
+            "review_text": "<p>I’m in my 60s and was dealing with thinning hair and stalled growth. Since using this, my hair is fuller, healthier, and growing again. I truly recommend it.</p>"
+          }
+        },
+        "list_item_6rnVKK": {
+          "type": "list_item",
+          "name": "Beth Customer Review",
+          "settings": {
+            "name_customer": "Beth",
+            "title_review": "Slowly but Surely",
+            "review_date": "5 days ago",
+            "review_rating": 4,
+            "review_text": "<p>I did not notice much change until about the third month, but now I can confidently say this serum really works. My thinning spot along the middle part is filling in with new baby hairs. I have also been using a microneedling tool when applying it. I cannot say for sure if that made the difference, but I do feel like it has helped boost my growth.</p>"
+          }
+        },
+        "list_item_6GW64r": {
+          "type": "list_item",
+          "name": "Amy Customer Review",
+          "settings": {
+            "name_customer": "Amy",
+            "title_review": "Confidence Restored",
+            "review_date": "6 days ago",
+            "review_rating": 5,
+            "review_text": "<p>Rootiva hair growth serum has helped me in so many ways. Before, I did not even want to go out or see anyone because I had lost all my confidence. After using Rootiva, my hair is so much healthier and fuller, and I finally feel like myself again. It truly gave me back my confidence. Thank you!</p>"
+          }
+        },
+        "list_item_DWctVp": {
+          "type": "list_item",
+          "name": "Mel Customer Review",
+          "settings": {
+            "name_customer": "Mel",
+            "title_review": "Amazing Experience",
+            "review_date": "6 days ago",
+            "review_rating": 5,
+            "review_text": "<p>After my fourth child, my postpartum hair loss was really bad. With consistent use of this product, my hair has grown back even fuller than it was before pregnancy. My mom even said, “I haven’t seen your hair this thick since you were young.” Truly an amazing product!</p>"
+          }
+        },
+        "list_item_THDEmf": {
+          "type": "list_item",
+          "name": "Amber Customer Review",
+          "settings": {
+            "name_customer": "Amber",
+            "title_review": "Fuller in Thin Areas",
+            "review_date": "6 days ago",
+            "review_rating": 5,
+            "review_text": "<p>I’ve been using Rootiva consistently and I can honestly see such a difference in my hair. My shedding has gone way down, my brush and shower drain are not full of hair anymore lol, and I’ve even noticed new growth in spots that used to look really thin. My hair feels healthier, fuller, and stronger overall. I’m so glad I gave it a try!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "list_item_igrTjp",
+        "list_item_yxc6Xm",
+        "list_item_JWE7N4",
+        "list_item_taiAN9",
+        "list_item_iFbLb4",
+        "list_item_H7JdMP",
+        "list_item_BGhddG",
+        "list_item_hPUWcy",
+        "list_item_CYDARr",
+        "list_item_fwj6G7",
+        "list_item_qJdGcK",
+        "list_item_6rnVKK",
+        "list_item_6GW64r",
+        "list_item_DWctVp",
+        "list_item_THDEmf"
+      ],
+      "name": "Custom Review List",
+      "settings": {}
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_result_r7bNhR",
+    "banner_compound_43dE8r",
+    "application_slider_CExgYL",
+    "before_after_slider_product_tryxX8",
+    "faq_with_image_h6L8VQ",
+    "custom_review_GfAPgy",
+    "related-products"
+  ]
+}
