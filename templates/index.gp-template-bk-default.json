@@ -8,106 +8,6 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {
-    "hero_GmkTFD": {
-      "type": "hero",
-      "blocks": {
-        "product_yAjcV6": {
-          "type": "product",
-          "settings": {
-            "product": "rootiva-growth-oil"
-          }
-        }
-      },
-      "block_order": [
-        "product_yAjcV6"
-      ],
-      "name": "Hero",
-      "settings": {}
-    },
-    "banner_melatonic_DVir6m": {
-      "type": "banner-melatonic",
-      "blocks": {
-        "product_hicLhd": {
-          "type": "product",
-          "settings": {
-            "product": "rootiva-growth-oil"
-          }
-        }
-      },
-      "block_order": [
-        "product_hicLhd"
-      ],
-      "name": "Banner Melatonic",
-      "settings": {}
-    },
-    "before_after_slider_TQD9nr": {
-      "type": "before-after-slider",
-      "blocks": {
-        "product_pbmgrj": {
-          "type": "product",
-          "settings": {
-            "product": "rootiva-growth-oil"
-          }
-        }
-      },
-      "block_order": [
-        "product_pbmgrj"
-      ],
-      "name": "Before After Slider",
-      "settings": {}
-    },
-    "banner_melatonic_marquee_3QjAwj": {
-      "type": "banner-melatonic__marquee",
-      "blocks": {
-        "product_qJLzFq": {
-          "type": "product",
-          "settings": {
-            "product": "rootiva-growth-oil"
-          }
-        }
-      },
-      "block_order": [
-        "product_qJLzFq"
-      ],
-      "name": "Banner with marquee",
-      "settings": {}
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
-    "banner_melatonic_image_aqYLmV": {
-      "type": "banner-melatonic-image",
-      "name": "Banner only image",
-      "settings": {}
-    }
-  },
   "order": [
     "hero_GmkTFD",
     "banner_melatonic_DVir6m",
@@ -115,5 +15,105 @@
     "banner_melatonic_marquee_3QjAwj",
     "featured_collection",
     "banner_melatonic_image_aqYLmV"
-  ]
+  ],
+  "sections": {
+    "banner_melatonic_DVir6m": {
+      "block_order": [
+        "product_hicLhd"
+      ],
+      "blocks": {
+        "product_hicLhd": {
+          "settings": {
+            "product": "rootiva-growth-oil"
+          },
+          "type": "product"
+        }
+      },
+      "name": "Banner Melatonic",
+      "settings": {},
+      "type": "banner-melatonic"
+    },
+    "banner_melatonic_image_aqYLmV": {
+      "name": "Banner only image",
+      "settings": {},
+      "type": "banner-melatonic-image"
+    },
+    "banner_melatonic_marquee_3QjAwj": {
+      "block_order": [
+        "product_qJLzFq"
+      ],
+      "blocks": {
+        "product_qJLzFq": {
+          "settings": {
+            "product": "rootiva-growth-oil"
+          },
+          "type": "product"
+        }
+      },
+      "name": "Banner with marquee",
+      "settings": {},
+      "type": "banner-melatonic__marquee"
+    },
+    "before_after_slider_TQD9nr": {
+      "block_order": [
+        "product_pbmgrj"
+      ],
+      "blocks": {
+        "product_pbmgrj": {
+          "settings": {
+            "product": "rootiva-growth-oil"
+          },
+          "type": "product"
+        }
+      },
+      "name": "Before After Slider",
+      "settings": {},
+      "type": "before-after-slider"
+    },
+    "featured_collection": {
+      "disabled": true,
+      "settings": {
+        "collection": "all",
+        "color_scheme": "scheme-1",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "description": "",
+        "description_style": "body",
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "padding_bottom": 36,
+        "padding_top": 44,
+        "products_to_show": 8,
+        "quick_add": "none",
+        "show_description": false,
+        "show_rating": false,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "title": "Featured products",
+        "view_all_style": "solid"
+      },
+      "type": "featured-collection"
+    },
+    "hero_GmkTFD": {
+      "block_order": [
+        "product_yAjcV6"
+      ],
+      "blocks": {
+        "product_yAjcV6": {
+          "settings": {
+            "product": "rootiva-growth-oil"
+          },
+          "type": "product"
+        }
+      },
+      "name": "Hero",
+      "settings": {},
+      "type": "hero"
+    }
+  }
 }
