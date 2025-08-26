@@ -158,7 +158,6 @@ html {
   font-weight: 500;
   padding-left: 1rem;
   padding-right: 1rem;
-  font-family: "SF Pro Display";
   transition: background-color 0.3s linear, color 0.3s linear;
   background-color: white;
 }
