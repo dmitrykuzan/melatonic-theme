@@ -466,7 +466,7 @@
                   -%}
                 </div>
 
-                   {% if product and product.handle == 'rootiva-growth-oil' %}
+                   {% comment %} {% if product and product.handle == 'rootiva-growth-oil' %}
                     <div class="product__upgrade">
                       <div class="product__upgrade-top">
                         <p></p>
@@ -501,7 +501,7 @@
                               style="cursor: pointer !important;"
                             >
                               <span>
-                                Buy Volume Set - $69.98‎
+                                Buy Volume Set - $76‎
                                 <span class="product-price-compare">$114</span>
                               </span>
                               {%- render 'loading-spinner' -%}
@@ -510,7 +510,7 @@
                         </div>
                       </div>
                     </div>
-                  {% endif %}
+                  {% endif %} {% endcomment %}
 
               {%- when 'popup' -%}
                 <modal-opener
