@@ -162,6 +162,15 @@ html {
   background-color: white;
 }
 
+.button-dark-2 .product-price-compare {
+  text-decoration: line-through;
+  font-size: 1.4rem; /* Match main price size */
+  font-weight: 400;
+  color: #999; /* Slightly muted */
+  margin-left: 4px;
+}
+
+
 .button-dark-2:hover {
   border: 0.2rem solid #000;
   color: #000;
