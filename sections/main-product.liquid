@@ -466,7 +466,7 @@
                   -%}
                 </div>
 
-                   {% if product and product.handle == 'rootiva-growth-oil' %}
+                   {% comment %} {% if product and product.handle == 'rootiva-growth-oil' %}
                     <div class="product__upgrade">
                       <div class="product__upgrade-top">
                         <p></p>
@@ -510,7 +510,7 @@
                         </div>
                       </div>
                     </div>
-                  {% endif %}
+                  {% endif %} {% endcomment %}
 
               {%- when 'popup' -%}
                 <modal-opener
